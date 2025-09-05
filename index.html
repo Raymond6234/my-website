@@ -1,0 +1,356 @@
+<html id="html"><head><meta name="csrf_token" content="L4YPBfy96EV5iEPEikIBZcE38zzkE2Nw">
+<meta name="csrf_token" content="4UHvmpiF0gn63d6usbe0BCCYkcjs1V22">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+<meta name="description" content="emui webui 6.0">
+<meta name="author" content="emui webui 6.0">
+<link type="text/css" rel="stylesheet" href="../css/emui-style.css?r=1640759658">
+<script type="text/javascript" src="../lib/emui-jquery.js?r=1640759658"></script>
+<script type="text/javascript" src="../js/public.js?r=1640759658"></script>
+<script type="text/javascript" src="../js/menu.js?r=1640759658"></script>
+<script type="text/javascript" src="../js/redirect.js?r=1640759658"></script>
+<title>Mobile Broadband</title>
+<script type="text/javascript">
+$(document).ready(function () {
+if(EMUI.BasicInfoObjController.content.response.classify === 'hilink'){
+if(EMUI.loginallowedObjController.content.response.hilink_login !== '1'){
+$("#loginallowed_btn").hide();
+}else{
+$("#loginallowed_btn").show();
+}
+}
+if(EMUI.BasicInfoObjController.content.response.classify !== 'hilink'){
+$("#hilink_disenable").show();
+}else{
+$("#hilink_disenable").hide();
+}
+EMUI.LoginStateController.load(function () {
+EMUI.BasicInfoObjController.load(function (data) {
+if (data["response"]["restore_default_status"] === '0') {
+utilGetCsrf();
+if (GLOBAL.modules.gdpr_enabled === '1') {
+EMUI.privacyStatus = EMUI.ObjController.extend({
+objName: 'app/privacypolicy',
+contentType: 'application/json;charset=UTF-8',
+isSupportSaveInfo: false
+})
+if(LANGUAGE_DATA.current_language){
+EMUI.privacyStatus.objName = 'app/privacypolicy?lang=' + LANGUAGE_DATA.current_language;
+}
+var isPrivacyStatus = false;
+EMUI.privacyStatus.load(function(resData) {
+secondaryAccountFlag();
+if (GLOBAL.isSecondaryAccount && (resData.OperatorEULAUpdate === 1 || resData.OperatorPrivacyPolicyUpdate === 1)) {
+isPrivacyStatus = true;
+} else if (!GLOBAL.isSecondaryAccount && (resData.IsPrivacyPolicyUpdate === 1 || resData.IsEULAUpdate === 1)) {
+isPrivacyStatus = true;
+} else {
+isPrivacyStatus = false;
+}
+}, false);
+if (isPrivacyStatus) {
+window.location.href = GLOBAL.INDEX_NO_SIMREDIRECT_PAGE_URL;
+return;
+}
+}
+$('body').css('display','block');
+var headerHeight = $(".header div.logo img").height();
+$(".header").height(headerHeight);
+if (EMUI.BasicInfoObjController.content.response.classify === 'hilink') {
+if(EMUI.loginallowedObjController.content.response.hilink_login === '1'){
+EMUI.HeartBeatObjController.refresh();
+}
+}else{
+EMUI.HeartBeatObjController.refresh();
+}
+getGlobalConfig(function (data) {
+if (typeof GLOBAL.modules.ussdmenuswitch_enabled !== 'undefined' && GLOBAL.modules.ussdmenuswitch_enabled === '1') {
+if (data['menu_v2'].tools.ussd) {
+delete data['menu_v2'].tools.ussd;
+}
+} else {
+if (data['menu_v2'].ussd) {
+delete data['menu_v2'].ussd;
+}
+}
+if (GLOBAL.switchmode &&
+GLOBAL.switchmode === '2') {
+if (data['menu_v2'].wanconfig.mobilenetwork.iptype) {
+delete data['menu_v2'].wanconfig.mobilenetwork.iptype;
+}
+}
+getname(data['menu_v2']);
+generateMenu();
+getCurrentMenu();
+showNewPage();
+});
+$(document).keydown(function (e) {
+if (e.keyCode === 13) {
+return false;
+}
+});
+} else {
+var href = guideHref();
+if (href) {
+gotoPageWithoutHistory(href);
+}
+}
+});
+});
+});
+</script>
+</head>
+<body style="background-color: rgb(243, 243, 243); display: block;"><div id="preLoadEyeImg"><div class="ic_guide_eye_open" style="opacity:0;height:0;margin:0"></div><div class="ic_eye_open" style="opacity:0;height:0;margin:0"></div></div><div id="preLoadLangImg"><div class="lang_top_normal" style="opacity:0;height:0;margin:0"></div><div class="lang_middle_selected" style="opacity:0;height:0;margin:0"></div><div class="lang_middle_normal" style="opacity:0;height:0;margin:0"></div><div class="lang_bottom_normal" style="opacity:0;height:0;margin:0"></div></div>
+<div>
+<div class="headcontainer">
+<div class="header" style="height: 35px;">
+<div class="pull-left">
+<div class="logo pull-left"><img src="../res/logo.png"> &nbsp;</div>
+<div class="pull-left devicename" id="deicename">&nbsp;</div>
+</div>
+<div id="header_right" class="pull-right" style="">
+<div class="pull-left my_account">
+<table class="hide pull-left" id="language_table" cellpadding="0" cellspacing="0" frame="void" rules="none" style="display: table;">
+<tbody><tr>
+<td>
+<a class="my_account" id="my_account" style="display:none;" lang-id="my_account" href="" target="_blank" rel="noopener noreferrer">My account</a>
+</td>
+<td>
+<div class="padding-left-20" style="cursor:pointer;" id="language_info" lang-id="footer.language" onclick="showSelectLang()">Language</div>
+</td>
+<td>
+<div class="lang_normal" id="language_arrow" onclick="showSelectLang()"></div>
+</td>
+</tr>
+</tbody></table>
+<div id="language_select_list" class="lang_select_list hide" style="width: 228px; margin-top: 25px;"><div style="margin-bottom: -1px; display: block;" class="lang_top_normal hide"></div><div id="language_select_list_content_bg" class="hide" style="height: 62px; width: 220px; position: absolute; left: 6px; right: 6px; background-color: white; z-index: -1; display: block;"></div><div id="language_select_list_content" scrollid="1" style="position: relative; overflow: visible;"><div id="scroll_left_1" class="scroll_left"><div id="scroll_text_1" class="scroll_text"><div id="language_select_list_0" option="fr-fr" style="margin-top: -1px; display: block;" class="lang_middle_normal hide" onclick="changeLanguage(this)"><span lang-id="fr_fr" class="public_lang_left" option="fr-fr">Français</span></div><div id="language_select_list_1" option="en-us" style="margin-top: -1px; display: block;" class="lang_middle_selected hide" onclick="changeLanguage(this)"><span lang-id="en_us" class="public_lang_left" option="en-us">English</span></div></div></div><div id="scroll_right_1" class="scroll_right" style="display:none"><div id="scroll_bar_1" class="scroll_bar" style="min-height:40px;"></div></div></div><div style="margin-top: -1px; display: block;" class="lang_bottom_normal hide"></div></div>
+</div>
+<table class="pull-right" cellpadding="0" cellspacing="0" frame="void" rules="none">
+<tbody><tr>
+<td id="header_sms_info" style="width: 52px;" align="center">
+<div id="sms_not_full" class="hide" align="center" style="display: block;">
+<div lang-id-set="title" title="SMS" lang-id="menu.smstool" style="position: relative;" class="pointer ic_sms_msg_normal" onclick="EMUI.publicActionController.toSms();">
+<div id="header_new_sms" class="hide ic_header_new pull-right" style="display: none;"></div>
+</div>
+</div>
+<div id="sms_full" class="hide" align="center" style="display: none;"><img src="../res/ic_sms_full_dynamic.gif" class="pointer" lang-id-set="title" title="SMS storage is full" lang-id="sms.message_full" onclick="EMUI.publicActionController.toSms();">
+</div>
+<div id="sms_full_new" class="hide" align="center" style="display: none;"><img src="../res/ic_sms_full_new_dynamic.gif" class="pointer" lang-id-set="title" title="SMS storage is full" lang-id="sms.message_full" onclick="EMUI.publicActionController.toSms();">
+</div>
+</td>
+<td id="header_upgrade_info" style="width:52px;" align="center">
+<div lang-id-set="title" title="Updates" lang-id="menu.upgrade" style="position: relative;" class="ic_update_normal" onclick="EMUI.publicActionController.toUpGrade();">
+<div id="header_new_version" class="hide ic_header_new pull-right" style="display: none;"></div>
+</div>
+</td>
+<td style="width:52px;" align="center" id="loginallowed_btn">
+<div lang-id-set="title" title="Log out" lang-id="public.cancel" class="ic_signout" onclick="EMUI.LogoutObjController.Logout();"></div>
+</td>
+<td style="width:52px;" align="center">
+<div lang-id-set="title" title="Restart" lang-id="public.reboot" class="ic_reboot" onclick="EMUI.RebootController.rebootInfo();"></div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+<div class="clearboth"></div>
+<div id="topmenucontainer" class="border_top border_bottom color_background_blue" style="height:76px;font-size:18px;"><table style="border-spacing:0px;border-collapse:collapse;width:1000px;margin:0 auto;left:0px;"><tbody><tr><td class="topmenu selectmenu" id="menu_home" onclick="selectPage('home')"><span id="ic_home_icon" style="display:inline-block;vertical-align: middle;" class="ic_home_selected">&nbsp;</span><span id="menu_top_home" style="display:inline-block;vertical-align: middle;" class="topmenu_selected" lang-id="menu.home">Home</span></td><td class="topmenu color_Darkgray" id="menu_wanconfig" onclick="selectPage('mobileconnection')"><span id="ic_wanconfig_icon" style="display:inline-block;vertical-align: middle;" class="ic_wanconfig">&nbsp;</span><span id="menu_top_wanconfig" style="display:inline-block;vertical-align: middle;" class="topmenu_normal" lang-id="menu.wanconfig">Network Settings</span></td><td class="topmenu color_Darkgray" id="menu_wifisettings" onclick="selectPage('wifieasy')"><span id="ic_wifisettings_icon" style="display:inline-block;vertical-align: middle;" class="ic_wifisettings">&nbsp;</span><span id="menu_top_wifisettings" style="display:inline-block;vertical-align: middle;" class="topmenu_normal" lang-id="menu.wifisettings">Wi-Fi Settings</span></td><td class="topmenu color_Darkgray" id="menu_devicemanagement" onclick="selectPage('devicemanagement')"><span id="ic_devicemanagement_icon" style="display:inline-block;vertical-align: middle;" class="ic_devicemanagement">&nbsp;</span><span id="menu_top_devicemanagement" style="display:inline-block;vertical-align: middle;" class="topmenu_normal" lang-id="menu.devicemanagement">Devices</span></td><td class="topmenu color_Darkgray" id="menu_tools" onclick="selectPage('sms')"><span id="ic_tools_icon" style="display:inline-block;vertical-align: middle;" class="ic_tools">&nbsp;</span><span id="menu_top_tools" style="display:inline-block;vertical-align: middle;" class="topmenu_normal" lang-id="menu.tools">Tools</span></td><td class="topmenu color_Darkgray" id="menu_advanceset" onclick="selectPage('wifiadvanced')"><span id="ic_advanceset_icon" style="display:inline-block;vertical-align: middle;" class="ic_advanceset">&nbsp;</span><span id="menu_top_advanceset" style="display:inline-block;vertical-align: middle;" class="topmenu_normal" lang-id="menu.advanceset">Advanced</span></td></tr></tbody></table></div>
+<div class="clearboth color_background_white" style="">
+<div class="bodycontainer">
+<div id="leftmenuarea" class="leftmenuarea" style="padding-top: 20px; height: 691px; display: none;">
+<div style="height:60px;">&nbsp;</div>
+</div>
+<div id="rightpagearea" class="rightpagearea margin-left-0" style="padding-top: 40px; width: 100%;"><div id="home_page" class="registerFunction"><div class="clearboth" align="center" style="margin:0 auto;height:440px;"><div class="home_status_topo home_status_topo_left" style="margin:0 auto;padding-top:80px"><div id="home_dual_wan" class="pull-left" style="margin-top:40px;height:98px;max-width:210px;"><a id="home_wan_status" href="#mobileconnection" target="_self" rel="noopener noreferrer" style="display:block;" class="home_sim_on_4"></a><div class="clearboth" style="margin-top: 5px; display: inline-block;"><div id="5g_reject_tips" class="pull-left speed_limited hide" style="margin-right: 5px; position: relative; display: none;" onclick="EMUI.homeStatusDetectController.show5gRejectTips_toast()"><div id="5g_reject_tips_toast" style="position: absolute; top: -10px; right: 35px; display: none;" class="text-left hide"><div lang-id="5G_Reject_Tip" style="font-size:13px;width:180px;border:solid 1px">5G access restricted. Contact your carrier for details.</div></div></div><div id="plmn_roam_box" class="clearboth" style="display: table; height: 22px;" align="center"><span id="home_plmn_description" class="secondmenu_child" style="">4G</span>&nbsp;<em style="height: 20px; font-size: 18px; display: none;" id="roam_icon" class="eth_no_connected hide" lang-id-set="title" lang-id="statistic.roaming" title="Roaming">&nbsp;&nbsp;&nbsp;&nbsp;</em></div><div id="home_wan_description" class="clearboth" style="display: table; height: 20px; max-width: 160px; overflow-wrap: break-word;"><div class="secondmenu_child">ALGERIE TELECOM</div></div></div></div><div class="pull-left" id="home_wan_connect_info" style="width:240px;margin:0 auto;font-size:14px;"><div id="home_wan_connected_status" class="hide color_Darkgray" style="margin: 0px auto; display: block;" align="center"><table cellpadding="0" cellspacing="0" frame="void" rules="none" style="height:148px;width:160px;"><tbody><tr><td><table cellpadding="0" cellspacing="0" frame="void" rules="none" id="wan_connect_rate" class="pointer hide" style="margin-top: 72px; display: table;" align="center" onclick="EMUI.homeStatusDetectController.jumpToPage();"><tbody><tr><td><div class="home_up">&nbsp;</div></td><td><div class="home_icon_text_split" id="home_up_rate">12.2Kbps</div></td></tr><tr><td><div class="home_down">&nbsp;</div></td><td><div class="home_icon_text_split" id="home_down_rate">889.6Kbps</div></td></tr></tbody></table><div id="home_traffic_overflow" style="margin-top: 72px; text-align: center; display: none;" class="hide pointer"></div></td></tr><tr><td style="height:25px;"><div id="home_wan_connect_status" class="home_connect_ok"></div></td></tr></tbody></table></div><div id="home_wan_disconnected_status" class="hide color_Darkgray" style="margin: 0px auto; display: none;" align="center"><table cellpadding="0" cellspacing="0" frame="void" rules="none" style="height:148px;width:160px;text-align:center;"><tbody><tr><td><div id="home_error_info" style="margin-top:10px;" onclick="EMUI.homeStatusDetectController.jumpToPage();"></div></td></tr><tr><td style="height:25px;"><div id="home_connect_failed_type" class="home_connect_fail"></div></td></tr></tbody></table></div></div><div class="pull-left"><a href="#deviceinformation" target="_self" rel="noopener noreferrer"><div id="battery_device_block" class="hide pointer" style="padding-top:45px;position:relative"><div id="home_battery_status" class="hide" style="padding-top:8px;"><div id="home_battery_low" class="hide battery_low" style="margin-top:8px;padding-top:3px;">&nbsp;</div><div id="home_battery_normal" class="hide battery_normal" align="left" style="margin-top:8px;direction:ltr !important;"><div id="home_battery_dynamic_back" class="home_battery_dynamic_back"></div></div><div id="home_battery_charge" class="hide battery_charge" style="margin-top:8px;padding-top:3px;">&nbsp;</div></div><div class="color_home_gray" id="home_battery_number" style="position:absolute;top:105px;left:80px;font-size:12px"></div></div><div id="no_battery_device_block" class="hide home_router pointer" style="position: relative; z-index: 2; display: block;"></div></a><div id="home_device_name" lang-id="home_myDevice" style="margin-top:5px;width:78px;">My device</div></div><div id="home_dual_wifi" class="pull-left" align="center" style="font-size:14px;margin:0 auto;width:240px;"><table cellpadding="0" cellspacing="0" frame="void" rules="none" style="height:148px;"><tbody><tr><td><table cellpadding="0" cellspacing="0" frame="void" rules="none" class="pointer" style="margin-top:72px;" align="center" onclick="EMUI.homeStatusDetectController.iconClickWifi();"><tbody><tr id="home_wifi2_satus" class="hide" style="display: table-row;"><td><a href="#wifieasy" target="_self" rel="noopener noreferrer"><div id="home_wifi2_status_icon" class="home_wifisingle_enable">&nbsp;</div></a></td><td><a href="#wifieasy" target="_self" rel="noopener noreferrer"><div id="home_wifi_24g" class="home_icon_text_split pointer selectmenu" lang-id="wps_wifi_mode_24G">2.4 GHz</div></a></td></tr><tr id="home_wifi5_satus" class="hide" style="display: none;"><td><a href="#wifieasy" target="_self" rel="noopener noreferrer"><div id="home_wifi5_status_icon" class="home_wifisingle">&nbsp;</div></a></td><td><a href="#wifieasy" target="_self" rel="noopener noreferrer"><div id="home_wifi_5g" class="home_icon_text_split pointer" lang-id="wps_wifi_mode_5G">5 GHz</div></a></td></tr></tbody></table></td></tr><tr><td style="height:25px;"><div id="home_wlan_connect_status" class="home_connect_ok"></div></td></tr></tbody></table></div><div id="home_dual_device" class="pull-left" style="margin-top: 40px;"><div class="home_desktop pointer" style="position: relative;z-index: 2;" onclick="EMUI.homeStatusDetectController.iconClickDevice();"><div class="clearboth" align="center" style="margin-top:23px;"><table cellpadding="0" cellspacing="0" frame="void" rules="none" style="max-width:120px; text-align:center;direction: ltr;"><tbody><tr><td><a href="#devicemanagement" target="_self" rel="noopener noreferrer"><div class="selectmenu" style="font-size:36px;" id="home_device_active_count">2</div></a></td><td style="width:21px;"></td></tr></tbody></table></div></div><div style="margin-top:5px;" class="wordbreak" lang-id="menu.devicemanagement">Devices</div></div></div><div class="clearboth">&nbsp;</div><div id="home_dual_internet" class="home_status_topo home_status_topo_left" style="margin: -120px auto 0px; display: none; width: 100%;"><div class="pull-left" style="margin-top:30px;height:115px;max-width:160px;"><a id="home_wan_status" href="#ethernetsettings" target="_self" rel="noopener noreferrer" style="display:block;" class="home_internet"></a><a id="home_wan_status1" href="#ethernetsettings" target="_self" rel="noopener noreferrer" style="display:none;" class="home_internet1"></a><div id="plmn_roam_box" style="max-width:160px;margin-top:5px;" align="center"><span id="home_plmn_description" style="margin-top:5px;" lang-id="home.internet">Internet</span>&nbsp;</div></div><div class="pull-left" style="width:240px;margin:0 auto;font-size:14px;"><div id="home_inter_ok_hide" class="color_Darkgray" style="margin:0 auto;margin-top: -60px;" align="center"><table cellpadding="0" cellspacing="0" frame="void" rules="none" style="height:148px;width:160px;"><tbody><tr><td><table cellpadding="0" cellspacing="0" frame="void" rules="none" id="wan_connect_rate" style="margin-top:82px;" align="center"><tbody><tr><td><div class="home_up" style="cursor: auto;">&nbsp;</div></td><td><div class="home_icon_text_split" id="home_up_inter_rate"></div></td></tr><tr><td><div class="home_down" style="cursor: auto;">&nbsp;</div></td><td><div class="home_icon_text_split" id="home_down_inter_rate"></div></td></tr></tbody></table><div id="home_traffic_overflow" style="margin-top:38px;text-align:center;" class="hide pointer"></div></td></tr><tr><td style="height:25px;"><div id="home_wan_connect_status" class="home_connect_ok"></div></td></tr></tbody></table></div><div id="home_inter_error_hide" class="hide color_Darkgray" style="margin: -60px auto 0px; height: 151px;" align="center"><table cellpadding="0" cellspacing="0" frame="void" rules="none" style="height:148px;width:160px;text-align:center;"><tbody><tr><td><div id="home_error_info" style="margin-top:82px;"><a href="#onekey" id="home_etherror" class="home_font_style" target="_self"></a></div></td></tr><tr><td style="height:25px;"><div class="home_connect_fail"></div></td></tr></tbody></table></div></div><div class="pull-left margin-left-78" align="center" style="font-size: 14px; margin: -55px auto 0px; width: 240px;"><table cellpadding="0" cellspacing="0" frame="void" rules="none" style="height:148px;"><tbody><tr><td><table cellpadding="0" cellspacing="0" frame="void" rules="none" class="pointer" style="margin-top:72px;" align="center" onclick="EMUI.homeStatusDetectController.iconClickWifi();"><tbody><tr id="homenet_wifi2_satus"><td><a href="#wifieasy" target="_self" rel="noopener noreferrer"><div id="homenet_wifi2_status_icon" class="home_wifisingle_enable">&nbsp;</div></a></td><td><a href="#wifieasy" target="_self" rel="noopener noreferrer"><div id="homenet_wifi_24g" class="home_icon_text_split pointer" lang-id="wps_wifi_mode_24G">2.4 GHz</div></a></td></tr><tr id="homenet_wifi5_satus" class="hide"><td><a href="#wifieasy" target="_self" rel="noopener noreferrer"><div id="homenet_wifi5_status_icon" class="home_wifisingle">&nbsp;</div></a></td><td><a href="#wifieasy" target="_self" rel="noopener noreferrer"><div id="homenet_wifi_5g" class="home_icon_text_split pointer" lang-id="wps_wifi_mode_5G">5 GHz</div></a></td></tr></tbody></table></td></tr><tr><td style="height:25px;"><div id="home_wlan_connect_status" class="home_connect_ok"></div></td></tr></tbody></table></div><div class="pull-left" style="margin-top:30px;"><div class="home_desktop pointer" onclick="EMUI.homeStatusDetectController.iconClickDevice();"><div class="clearboth" align="center" style="margin-top:23px;"><table cellpadding="0" cellspacing="0" frame="void" rules="none" style="max-width:120px; text-align:center;direction: ltr;"><tbody><tr><td><a href="#devicemanagement" target="_self" rel="noopener noreferrer"><div class="selectmenu" style="font-size:36px;" id="home_inter_device_active_count">2</div></a></td><td style="width:21px;"></td></tr></tbody></table></div></div><div style="margin-top:5px;" class="wordbreak" lang-id="menu.devicemanagement">Devices</div></div></div><div class="clearboth">&nbsp;</div><div class="clearboth"><div class="clearboth home_connet_btn" id="home_profile_btn_father" align="center"><button class="btn_normal_long home_open hide" id="home_profile_btn" lang-id="home.closemobile" onclick="EMUI.homeDataSwitchController.setDialUpSwitch();" style="display: inline-block;">Disable Mobile Data</button><button class="btn_normal_long home_open hide" id="home_statistic_connect_btn" lang-id="home.openmobile" onclick="EMUI.homeSetDailyDialContinueController.startMobileConnect();" style="display: none;">Enable mobile data</button></div><div class="clearboth hide home_connet_btn" id="home_connect_btn_father" align="center"><button class="btn_normal_long home_open" id="home_connect_btn" lang-id="common_connect" onclick="EMUI.homeConnectController.connectBtnClick();">Connect</button></div><div class="clearboth home_connet_btn hide" id="home_location_btn_father" align="center" style="display: none;"><button class="btn_normal_long home_open " id="home_location_btn" onclick="EMUI.homeConnectController.locationBtnClick();" lang-id="home.signalQualityAssessment">Optimize location</button></div></div></div><div id="home_hotlink_container" class="hotlink_container hide" style="display: none;"><ul id="home_hotlink_content"></ul></div><div style="height:40px;">&nbsp;</div></div></div>
+<div class="clearboth"></div>
+</div>
+</div>
+<div class="clearboth"></div>
+<div id="home_status" class="hide" style="background-color: rgb(250, 250, 250); width: 100%; display: block; height: 171px; margin-top: 0px;">
+<div style="width:1150px;margin:0 auto;background-color:#FAFAFA;">
+<div class="color_descroption_gray" style="width:1060px;padding-top:30px;font-size:14px;margin:0 auto;text-align:center;">
+<div id="secound_account_hide" style="display:inline-block;height:104px;">
+<div class="pull-left">
+<div class="clearboth text-left home_status_font" lang-id="home.currentconnect">Current network connection</div>
+<table class="text-left" cellpadding="0" cellspacing="0" frame="void" rules="none" style="margin-top:5px;">
+<tbody><tr style="height:25px;" id="home_wan_connect_lasttime_block">
+<td><span lang-id="home.lasttime">Duration</span><span lang-id="common_colon">:</span></td>
+<td>
+<div class="pull-left home_td_content_margin" id="home_wan_connect_lasttime">10:32:17</div>
+</td>
+<td></td>
+<td></td>
+</tr>
+<tr style="height:25px;" id="wan_home_uptotalstream">
+<td><span lang-id="home.uptotalstream">Uploading mobile data</span><span lang-id="common_colon">:</span></td>
+<td>
+<div id="home_total_up_flow" class="pull-left home_td_content_margin">226.7MB</div>
+</td>
+</tr>
+<tr style="height:25px;" id="wan_home_downtotalstream">
+<td><span lang-id="home.downtotalstream">Downloading mobile data</span><span lang-id="common_colon">:</span></td>
+<td>
+<div id="home_total_down_flow" class="pull-left home_td_content_margin">2.4GB</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div id="home_power_last_time_margin_div" class="home_status_margin_div home_status_control_margin home_status_margin_60"></div>
+<div id="home_power_last_time" class="hide" style="display:none;height:104px;">
+<div class="pull-left">
+<div class="clearboth text-left home_status_font" lang-id="home.deviceuptime">Startup time</div>
+<div style="padding-top:10px;" class="text-left" id="home_device_up_time"></div>
+</div>
+</div>
+<div id="home_history_login_info_margin_div" class="home_status_control_margin home_status_margin_60" style="display:inline-block;height:104px;width:0px;border-left:1px solid #E9E9E9;"></div>
+<div id="home_history_login_info" class="hide" style="display:inline-block;height:104px;">
+<div class="pull-left">
+<div id="home_history_login_info_title" class="clearboth text-left home_status_font" lang-id="home.lastlogininfo">Previous login information</div>
+<table class="text-left" cellpadding="0" cellspacing="0" frame="void" rules="none" style="margin-top:5px;">
+<tbody><tr style="height:25px;">
+<td><span lang-id="home.loginip">Login IP</span><span lang-id="common_colon">:</span></td>
+<td>
+<div class="pull-left home_td_content_margin" id="home_last_login_ip"><span>192.168.8.133</span></div>
+</td>
+</tr>
+<tr style="height:25px;">
+<td><span lang-id="home.logintime">Login time</span><span lang-id="common_colon">:</span></td>
+<td>
+<div class="pull-left home_td_content_margin" id="home_last_login_time"><span>2025-09-05 20:54:18</span></div>
+</td>
+</tr>
+<tr style="height:25px;">
+<td><span lang-id="home.loginstatus">Login status</span><span lang-id="common_colon">:</span></td>
+<td>
+<div class="pull-left home_td_content_margin" id="home_last_login_status"><span lang-id="common_normal">Normal</span></div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div id="home_sd_link_info_margin_div" class="home_status_margin_div home_status_control_margin home_status_margin_60"></div>
+<div id="home_sd_link_info" class="hide" style="display:none;height:104px;">
+<div class="pull-left">
+<div class="clearboth text-left home_status_font" lang-id="home.share">Shared</div>
+<div class="clearboth text-left" style="padding-top:10px;">
+<a class="selectmenu" href="#sdcard" rel="noopener noreferrer" target="_self" style="font-size:14px;" lang-id="home.sharesd">Browse SD card files</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearboth"></div>
+<div style="min-height:30px;">&nbsp;</div>
+</div>
+<div class="color_background_white topmenuselect" style="height:0px;overflow:hidden;" id="fix_sms_html_area"></div>
+<div class="clearboth"></div>
+<div id="page_footer" style="height:80px;background-color:#F3F3F3;width:100%;">
+<div style="width:1150px;height:50px;margin:0 auto;background-color:#F3F3F3;">
+<div class="clearboth footercontainer">
+<div id="foot_hotlink_container" class="hotlink_container hide" style="display: none;">
+<ul id="foot_hotlink_content"></ul>
+</div>
+<div id="copyright">
+<table cellpadding="0" cellspacing="0" frame="void" rules="none" align="center">
+<tbody><tr>
+<td class="padding-left-20">
+<div class="padding-left-20" style="cursor:pointer;">
+<a id="footer_privacyNotice" class="color_descroption_gray" style="" href="../html/privacystatement.html" target="_blank" rel="noopener noreferrer" lang-id="privacy_notice_title">Huawei Privacy Notice</a>
+</div>
+</td>
+<td class="padding-left-20">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<a id="footer_userAgreement" class="color_descroption_gray" style="" href="/policy/html/protocol/protocol-en_us.html?region=0&amp;r=0.6988467011103817" target="_blank" rel="noopener noreferrer" lang-id="user_agreement_title">User Agreement</a>
+</div>
+</td>
+<td class="padding-left-20">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<a id="footer_privacyPolicy" class="color_descroption_gray" style="" href="/policy/html/privacy/privacyPolicy-en_us.html?region=0&amp;10=1&amp;25=0&amp;13=0&amp;100=1&amp;101=0&amp;47=0&amp;81=0&amp;54=0&amp;108=0&amp;200=0&amp;operatorName=ALGERIE TELECOM&amp;r=0.07796763120429395" target="_blank" rel="noopener noreferrer" lang-id="privacy_statement_title">Privacy Statement</a>
+</div>
+</td>
+<td class="padding-left-20">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<a href="/html/OPEN_SOURCE_SOFTWARE_NOTICE.txt" rel="noopener noreferrer" target="_blank" style="" class="color_descroption_gray" lang-id="footer.opensource">Open Source Statement</a>
+</div>
+</td>
+<td id="safeinfo_td" class="padding-left-20" style="display: none;">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<a id="safeinfo" href="" rel="noopener noreferrer" target="_blank" style="display: none;" class="color_descroption_gray" lang-id="safe.question">Security Information</a>
+</div>
+</td>
+</tr>
+</tbody></table>
+<table style="margin-top:5px; margin-bottom:12px" cellpadding="0" cellspacing="0" frame="void" rules="none" align="center">
+<tbody><tr>
+<td class="padding-left-20">
+<a id="help_href" href="../usermanual/en-us/usermanual/faq_plugin/web_faq_topic_00001.html" rel="noopener noreferrer" target="_blank" class="pull-left hide padding-left-20 color_descroption_gray" style="display: inline;">
+<div class="pull-left footer-help" lang-id="footer.faqs">FAQs</div>
+</a>
+</td>
+<td class="padding-left-20" id="hilink_disenable">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<span data-smarthome="download" style="" class="color_descroption_gray" lang-id="ailife_download" onclick="createHiLinkAppDownload()">Download AI Life</span>
+</div>
+</td>
+<td class="padding-left-20">
+<div class="padding-left-20 border_left color_border_gray color_descroption_gray" style="" id="footer_copyright">©2017-2022 Huawei Device Co., Ltd.</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+<div class="hilinkapp_download_box submit_background hide" style="display: none;">
+<div class="hilink_table_top"></div>
+<div class="border_left border_right margin_bottom_box2 color_background_white" style="">
+<div align="center" class="border_bottom color_Darkgray" style="height: 47px;font-size: 16px;">
+<div class="hilinkdown_left" lang-id="ailife_download">Download AI Life</div>
+<div class="btn_cancel" onclick="createHiLinkAppDownloadCancel();"></div>
+</div>
+<div class="hilinkapp_download_img" align="center">
+<a class="hilinkapp_download_href" href="https://smarthome.hicloud.com/d/?v2" rel="noopener noreferrer" target="_blank">
+<div class="smart_qrcode"></div>
+</a>
+</div>
+<div align="center">
+<span class="hilinkapp_string" lang-id="index.ailife" style="width: 200px;">Install the AI Life app to manage devices</span>
+</div>
+<div class="hilinkapp_btn" align="center">
+<a class="hilinkapp_download_href btn_normal_short" href="https://smarthome.hicloud.com/d/?v2" lang-id="IDS_common_download" rel="noopener noreferrer" target="_blank" style="display: block">Download</a>
+</div>
+</div>
+<div class="hilink_table_bottom"></div>
+</div>
+</div>
+<div class="clearboth"></div>
+<div id="submit_light" class="submit_white_content" style="display: none;"></div>
+<div id="pwd_submit_light" class="pwd_submit_white_content"></div>
+<div id="toast_location" class="toast_location hide">
+<div class="toast_left pull-left"></div>
+<div class="pull-left color_Darkgray" style="background-color:#DBDBDB;height:44px;font-size:14px;">
+<div style="margin-top:14px;" id="toast_info"></div>
+</div>
+<div class="toast_right pull-left"></div>
+</div>
+<div id="confirm_light" class="submit_white_content hide" style="display: none;"></div>
+<div id="submit_fade" class="submit_black_overlay hide" style="display: none;"></div>
+<div id="emui_content_pop_win" class="pop_win hide" style="display: none;">
+<div class="adv_pop_win_top">
+<div class="pull-left padding-left-30" id="emui_pop_win_title" lang-id="cbs.win.title" style="font-size:16px;padding-top:25px;"></div>
+<div class="pull-right btn_cancel padding-right-8" onclick="EMUI.popWinController.closeAll();" style="margin-top:25px;"></div>
+</div>
+<div class="adv_pop_win_middle" style="min-height:100px;">
+<div class="clearboth border_bottom margin-left-10" style="width:504px;"></div>
+<div id="pop_win_content_area" class="pop_win_content" style="word-wrap:break-word;"></div>
+</div>
+<div class="adv_pop_win_bottom"></div>
+</div>
+
+
+<deepl-input-controller translate="no"></deepl-input-controller></body></html>
