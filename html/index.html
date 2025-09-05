@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html id="html">
+<head><meta name="csrf_token" content="QzNjqThW30ppf2fve0w7xrGWszF0rKE7">
+<meta name="csrf_token" content="WbJ0V57ZCNuACq03obqqvcZqn52I0kzI">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta http-equiv='Pragma' content='no-cache'/>
+<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"/>
+<meta name="description" content="emui webui 6.0"/>
+<meta name="author" content="emui webui 6.0"/>
+<link type="text/css" rel="stylesheet" href="../css/emui-style.css?r=1640759658"/>
+<script type="text/javascript" src="../lib/emui-jquery.js?r=1640759658"></script>
+<script type="text/javascript" src="../js/public.js?r=1640759658"></script>
+<script type="text/javascript" src="../js/redirect.js?r=1640759658"></script>
+<script type="text/javascript" src="../js/index.js?r=1640759658"></script>
+<script type="text/javascript" src="../js/guide.js?r=1640759658"></script>
+<title></title>
+<script type="text/javascript">
+var gRestoreStatus = '';
+$(document).ready( function () {
+var gMonitoringStatus = '';
+if (EMUI.BasicInfoObjController.content && EMUI.BasicInfoObjController.content.response) {
+gRestoreStatus = EMUI.BasicInfoObjController.content.response;
+} else {
+getAjaxData('api/device/basic_information', function (ret) {
+if (ret.type === 'response') {
+gRestoreStatus = ret.response;
+}
+}, {
+sync: true
+});
+}
+if (EMUI.globalStatusController.content && EMUI.globalStatusController.content.response) {
+gMonitoringStatus = EMUI.globalStatusController.content.response;
+} else {
+getAjaxData('api/monitoring/status', function (ret) {
+if (ret.type === 'response') {
+gMonitoringStatus = ret.response;
+}
+}, {
+sync: true
+});
+}
+if (gMonitoringStatus != '' && gMonitoringStatus.ConnectionStatus == '901' && gRestoreStatus != '' && gRestoreStatus.restore_default_status == '0') {
+EMUI.indexHomePageRedirectController.load();
+} else {
+indexInit();
+}
+});
+function hilinkLoginInfoCallback(data) {
+if (data['type'] === 'response') {
+var loginalloweddata = data.response;
+if (loginalloweddata.hilink_login !== '1') {
+window.location.href = "../html/content.html#home";
+}
+}
+}
+function indexInit() {
+var isOrigin = (window.location.search.indexOf('?origin=') !== -1) ? true : false;
+if ( redirectOnCondition(null, null, null, isOrigin) ) {
+return;
+}
+if (EMUI.webWebFeatureController.rememberPwd && EMUI.webWebFeatureController.rememberPwd === '1') {
+EMUI.rememberPassController.load(null, false);
+}
+if (EMUI.rememberPassController.getrememberpwdStatus() !== '1') {
+setTimeout( function () {
+$('#login_password').attr('disabled', false);
+$('#login_password').removeAttr("disabled");
+}, 100)
+}
+utilGetCsrf();
+if (gRestoreStatus["restore_default_status"] == 0) {
+if (EMUI.LoginObjController.autorunRedirect()) {
+return;
+}
+if (window.location.search.indexOf('?origin=') !== -1) {
+var redirectpage = disconnectRedirect();
+if (redirectpage) {
+gotoPageWithoutHistory( 'redirectdisconnect.html' + redirectpage );
+return;
+}
+}
+if (gRestoreStatus.classify === 'hilink') {
+EMUI.loginallowedObjController.load(null,false);
+$("#loginqrcodecontainer").hide();
+$("#logincontainerwidth").css({ "width": "100%" });
+if (EMUI.privacyNoticeInfoController.isPolicyUpdate && EMUI.loginallowedObjController.content.response.hilink_login === '0') {
+EMUI.privacyNoticeInfoController.popPrivacyNotice();
+}else{
+if(EMUI.loginallowedObjController.content.response.hilink_login === '0'){
+EMUI.loginallowedObjController.load(hilinkLoginInfoCallback, false);
+return;
+}else{
+$("#hilink_loginimg").removeClass("login_image").addClass("hilinklogin_image");
+}
+}
+}
+if (gRestoreStatus.classify === 'wingle') {
+$("#hilink_loginimg").removeClass("login_image").addClass("winglelogin_image");
+}
+if (gRestoreStatus.classify === 'mobile-wifi') {
+$("#hilink_loginimg").removeClass("login_image").addClass("e5_login_image");
+}
+$('body').show();
+var headerHeight = $(".header div.logo img").height();
+$(".header").height(headerHeight);
+EMUI.LoginObjController.resizeWindow();
+EMUI.LoginObjController.initLoginBoxStyle();
+$("#login_win").css({'display': 'block'});
+$("body").keydown( function (e) {
+var curKey = e.which;
+if (curKey == 13) {
+if ($('#login_back_ground_icon').is(':visible')) {
+EMUI.LoginObjController.Login(0);
+return false;
+}
+}
+});
+if (window.addEventListener) {
+window.addEventListener('resize', EMUI.LoginObjController.resizeWindow, false);
+} else {
+window.attachEvent('resize', EMUI.LoginObjController.resizeWindow);
+}
+} else {
+var href = guideHref();
+if (href) {
+gotoPageWithoutHistory(href);
+}
+return;
+}
+}
+</script>
+</head>
+<body style="background-color:#F3F3F3;display:none;">
+<div>
+<div class="headcontainer">
+<div class="header">
+<div class="logo pull-left">
+<img src="../res/logo.png" />
+&nbsp;
+</div>
+<div class="devicename" id="deicename">
+&nbsp;
+</div>
+<div id="header_right" class="pull-right padding-rigth-20" style="z-index:20">
+<table class="hide pull-left" id="language_table" cellpadding="0" cellspacing="0"
+frame=void rules=none>
+<tr>
+<td>
+<div style="cursor:pointer;" id="language_info" lang-id="footer.language"
+onclick="showSelectLang()">
+</div>
+</td>
+<td>
+<div class="lang_normal" id="language_arrow"
+onclick="showSelectLang()">
+</div>
+</td>
+</tr>
+</table>
+<div id="language_select_list" class="lang_select_list hide">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="login_win" class="hide color_background_blue" style="height:100%;width:100%;margin:0 auto;position:relative;">
+<div class="indexcontainer pull-left" style="z-index:10;position:absolute;">
+<div id="login_back_ground_top" class="login_pop_top"></div>
+<div id="login_back_ground_icon" class="color_background_white" style="">
+<div id="logincontainerwidth" class="logincontainer pull-left" style="padding-top:18px;">
+<div align="center">
+<div id="hilink_loginimg" class="login_image">
+</div>
+<div id="index_login_title" lang-id="index.loginpassword" class="color_Darkgray" style="font-size:18px;">
+</div>
+<div id="login_username_input" class="clearboth hide" style="margin-top:30px;margin-bottom:-15px;"
+align="center">
+<div>
+<div id="login_username_div" class="login_username">
+<input class="login_pwd_input"
+onfocus="EMUI.LoginObjController.showLoginPasswordBorder(this)"
+onblur="EMUI.LoginObjController.hideLoginPasswordBorder(this)"
+oncopy="return false;" oncut="return false;" oncontextmenu="return false;"
+id="login_username" lang-id="settings_hint_user_name_empty" placeholder=""
+lang-id-set="placeholder" type="text" autocomplete="off" disabled="true"
+maxlength="64"/>
+</div>
+</div>
+</div>
+<div class="clearboth" style="margin-top:30px;" align="center">
+<div id="login_password_close" class="login_password_div login_password">
+<input class="login_pwd_input"
+onfocus="EMUI.LoginObjController.showLoginPasswordBorder(this)"
+onblur="EMUI.LoginObjController.hideLoginPasswordBorder(this)"
+id="login_password" oncopy="return false;" oncut="return false;"
+oncontextmenu="return false;"
+lang-id="dialup_hint_password_empty"
+placeholder="" lang-id-set="placeholder" type="password"
+autocomplete="off"
+maxlength="32"/>
+<div class="guide_eye ic_eye_close" forpass="login_password" style="margin-top: 8px"></div>
+</div>
+<div id="login_password_open" class="login_password hide">
+<input class="login_pwd_input"
+onfocus="EMUI.LoginObjController.showLoginPasswordBorder(this)"
+onblur="EMUI.LoginObjController.hideLoginPasswordBorder(this)"
+id="login_password_text" oncopy="return false;" oncut="return false;"
+oncontextmenu="return false;"
+lang-id="dialup_hint_password_empty"
+placeholder="" lang-id-set="placeholder" type="text"
+autocomplete="off"
+maxlength="32"/>
+<div class="guide_eye ic_eye_open" forpass="login_password" style="margin-top: 8px"></div>
+</div>
+</div>
+<div class="clearboth error hide" id="login_error_info" lang-id="">
+</div>
+<div id="index_autoUpg" class="clearboth error hide" style="padding-top:16px">
+<div class="pull-left padding-right-10" style="font-size: 14px;height:20px">
+<div id="index_autoUpg_check" class="check_on">
+</div>
+</div>
+<div class="color_Darkgray" style="font-size: 14px;width: 300px;line-height:20px;" lang-id="index_autoUpg_label">
+</div>
+</div>
+<div class="clearboth error hide color_descroption_gray" id="remember_pass" style="margin-top:16px;padding-bottom: 16px;">
+<div class="pull-left padding-right-10">
+<div class="check_off" id="checkbox_remember_password"></div>
+</div>
+<div class="pull-left three_way_instruction" style="line-height:20px;text-align: left;" lang-id="IDS_login_modify_remind"></div>
+</div>
+<div class="clearboth error onekey_red hide" id="login_warn_info" style="margin-top:8px;padding-left:0px;width: 300px;" lang-id="IDS_login_warn_remind">
+</div>
+<div style="margin-top:16px;">
+<div class="login_btn_normal_long" id="login_btn" onclick="EMUI.LoginObjController.Login(0)"
+lang-id="index.login" style="line-height:44px;">
+</div>
+</div>
+<span id="forgetpassword_show" class="selectmenu" lang-id="index.forgetpassword"
+style="margin-top:16px;font-size:14px;cursor:pointer;display: inline-block;
+margin-bottom:36px" onclick="EMUI.LoginObjController.showForgetPassInfo()">
+</span>
+</div>
+</div>
+<div class="main_content clearboth" id="modify_login" style="display: none;">
+<div lang-id="menu.modifypassword" style="border-bottom: 1px solid #E9E9E9;margin: 0 10px;text-align: center;padding: 10px 0;font-size: 18px;"></div>
+<div class="clearboth" style="padding-top:20px;" id="new_password_error">
+<div class="control-label margin-left-55" style="width: 120px;">
+<span lang-id="system_label_new_password"></span>
+</div>
+<div class="controls-win">
+<div class="input_normal">
+<input style="width:310px;" id="newlogin_password" onfocus="showInputBorder(this)" onblur="hideInputBorder(this)" type="password"
+type="password" autocomplete="off;" oncut="return false;" oncopy="return false;" oncontextmenu="return false;"
+onkeyup="EMUI.AccountObjController.showPwdStrength(this)" maxlength="32" />
+</div>
+<div style="width: 340px;">
+<div style="font-size:14px; float: left; max-width: 221px; padding-top:8px;" class="margin-left-10 color_descroption_gray"
+lang-id="guide.setpassinfo"></div>
+<div style="cursor: pointer; float: right; font-size:14px; margin-top: 8px; display: inline-block" class="margin-left-10 selectmenu"
+lang-id="password_rules" onclick="EMUI.AccountObjController.showPasswordRuleBox()"></div>
+</div>
+</div>
+<div id="newlogin_password_week" class="pull-left hide modifypwdstreng" style="margin-top:3px;">
+<div class="pull-left ic_low_left">&nbsp;</div>
+<div class="pull-left ic_low_medium">
+<div lang-id="password.weak"></div>
+</div>
+<div class="pull-left ic_low_right">&nbsp;</div>
+</div>
+<div id="newlogin_password_medium" class="pull-left hide modifypwdstreng" style="margin-top:3px;">
+<div class="pull-left ic_medium_left">&nbsp;</div>
+<div class="pull-left ic_medium_medium">
+<div lang-id="password.medium"></div>
+</div>
+<div class="pull-left ic_medium_right">&nbsp;</div>
+</div>
+<div id="newlogin_password_strong" class="pull-left hide modifypwdstreng" style="margin-top:3px;">
+<div class="pull-left ic_strong_left">&nbsp;</div>
+<div class="pull-left ic_strong_medium">
+<div lang-id="password.strong"></div>
+</div>
+<div class="pull-left ic_strong_right">&nbsp;</div>
+</div>
+</div>
+<div class="clearboth" style="padding-top:20px;" id="confirm_password_error">
+<div class="control-label margin-left-55" style="width: 120px;">
+<span lang-id="system_label_confirm_password"></span>
+</div>
+<div class="controls">
+<div class="input_normal">
+<input style="width:310px;" id="confirm_password" onfocus="showInputBorder(this)" onblur="hideInputBorder(this)" type="password"
+autocomplete="off;" oncopy="return false;" oncut="return false;" oncontextmenu="return false;"
+maxlength="32" />
+</div>
+</div>
+</div>
+<div class="clearboth apply_button" style="padding-top:50px;margin: 0 0 20px 0;display: inline-block;">
+<div class="control-label">&nbsp;</div>
+<div class="controls">
+<button class="btn_normal_short btn_disabled margin-left-35" disabled="true" id="modifypassword_button" lang-id="btn.save"
+onclick="EMUI.AccountObjController.ModifyPassword()"></button>
+</div>
+</div>
+</div>
+<div id="loginqrcodecontainer" class="qrcodecontainer pull-left" style="padding-top:80px;">
+<div align="center">
+<div style="width:100%" class="index_boder">
+<a id="qrcodeaddr" href="#" rel="noopener noreferrer" target="_blank">
+<div class="hlink_qrcode">
+</div>
+</a>
+</div>
+<div data-smarthome='qrcode' style="margin-top:8px;width:160px;" lang-id="index.qrcode">
+</div>
+</div>
+</div>
+<div class="clearboth">
+</div>
+</div>
+<div id="login_back_ground_bottom" class="login_pop_bottom"></div>
+<div class="clearboth">
+</div>
+<div id="guide_privacy_page" style="width:1000px;margin-left:-315px;margin-right:-315px;margin-top:-190px;" class="hide">
+<div style="margin:0 auto;">
+<div class="guide_table_top">&nbsp;</div>
+<div class="margin_bottom_box2 color_background_white" style="min-height:456px;width:1000px;">
+<div style="padding-top:20px;height:48px;" class="border_bottom" align="center">
+<div id="guide_privacy_title" lang-id="" style="font-size:18px;"></div>
+</div>
+<div id="guide_privacy_box" class="text-left" style="height: 250px">
+<div id="guide_privacy_content" style="max-height:225px;width:998px;margin-top:20px;margin-bottom:20px;">
+</div>
+</div>
+</div>
+<div class="guide_table_bottom">&nbsp;</div>
+</div>
+</div>
+<div id="guide_changepassword_page" style="width:1000px;position:absolute;margin-left:-185px;margin-top:-142px;" class="hide">
+<div style="margin:0 auto;position:absolute;">
+<div class="guide_table_top">&nbsp;</div>
+<div class="margin_bottom_box2 color_background_white" style="min-height:456px;">
+<div style="min-height:333px;">
+<div style="padding-top:20px;height:48px;" class="border_bottom" align="center">
+<div lang-id="guide.setloginpassword" style="font-size:18px;"></div>
+</div>
+<div id="same_wifi_password" class="clearboth" style="padding-top:40px;">
+<div class="pull-left" style="width:330px;">
+<div lang-id="guide.samewifi" class="text-right guide_input_label"></div>
+</div>
+<div class="pull-left">
+<div id="same_wifi_switch" style="margin-top:3px;" class="switch_on" onclick="EMUI.GuideController.guideModifyPasswordSwitch(this)"></div>
+</div>
+</div>
+<div id="guide_newpassword_aero" class="hide clearboth" style="width:100%;padding-top:80px;">
+<div id="guide_new_password">
+<div class="clearboth pull-left" id="new_password_close">
+<div class="width:671px;">
+<div class="pull-left" style="width:330px;">
+<div lang-id="system_label_new_password" class="text-right guide_input_label"></div>
+</div>
+<div class="pull-left input_normal" align="left">
+<input id="new_password" type="password" style="width:290px;" autocomplete="off" onfocus="showInputBorder(this)" onblur="hideInputBorder(this)" oncopy="return false;" oncut="return false;" oncontextmenu="return false;" maxlength="32"/>
+</div>
+<div class="pull-left ic_eye_close" forpass="new_password" onclick="ShowPassword(this)">&nbsp;</div>
+</div>
+</div>
+<div class="clearboth pull-left hide" id="new_password_open">
+<div class="width:671px;">
+<div class="pull-left" style="width:330px;">
+<div lang-id="system_label_new_password" class="text-right guide_input_label"></div>
+</div>
+<div class="pull-left input_normal" align="left">
+<input id="new_password_text" type="text" style="width:290px;" autocomplete="off" onfocus="showInputBorder(this)" onblur="hideInputBorder(this)" oncopy="return false;" oncut="return false;" oncontextmenu="return false;" maxlength="32"/>
+</div>
+<div class="pull-left ic_eye_open" forpass="new_password" onclick="ShowPassword(this)">&nbsp;</div>
+</div>
+</div>
+<div id="modify_password_strength_week" class="pull-left hide margin-left-10" style="margin-top:3px;">
+<div class="pull-left ic_low_left">&nbsp;</div>
+<div class="pull-left ic_low_medium">
+<div style="line-height:26px;" lang-id="password.weak"></div>
+</div>
+<div class="pull-left ic_low_right">&nbsp;</div>
+</div>
+<div id="modify_password_strength_medium" class="pull-left hide margin-left-10" style="margin-top:3px;">
+<div class="pull-left ic_medium_left">&nbsp;</div>
+<div class="pull-left ic_medium_medium">
+<div style="line-height:26px;" lang-id="password.medium"></div>
+</div>
+<div class="pull-left ic_medium_right">&nbsp;</div>
+</div>
+<div id="modify_password_strength_strong" class="pull-left hide margin-left-10" style="margin-top:3px;">
+<div class="pull-left ic_strong_left">&nbsp;</div>
+<div class="pull-left ic_strong_medium">
+<div style="line-height:26px;" lang-id="password.strong"></div>
+</div>
+<div class="pull-left ic_strong_right">&nbsp;</div>
+</div>
+<div class="clearboth">
+<div class="pull-left" style="width:330px;">&nbsp;</div>
+<div class="pull-left">
+<div lang-id="wlan_hint_wps_pwd_valid_type" class="text-left guide_input_descript guide_setpassinfo"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearboth" align="center" style="padding-top:50px;">
+<div lang-id="guide.finish" id="guide_modify_password" style="position: relative;" class="btn_normal_long" onclick="EMUI.checkUserController.checkCurrentPAssword();"></div>
+<div lang-id="guide.skip" id="guide_skip_password" style="position: relative; margin-top:30px;" class="btn_normal_long hide"
+onclick="EMUI.GuideWlanObjController.setWlanAndAccount(2);"></div>
+</div>
+</div>
+</div>
+<div class="guide_table_bottom">&nbsp;</div>
+</div>
+</div>
+<div class="clearboth"></div>
+<div id="guide_reboot_page" style="width:1000px;position:absolute;margin-left:-185px;margin-top:-142px;"
+class="hide">
+<div style="margin:0 auto;position:absolute;">
+<div class="guide_table_top">
+&nbsp;
+</div>
+<div class="color_background_white" style="min-height:456px;">
+<div id="wifi_reboot_loading" class="hide">
+<div style="padding-top:130px;" align="center">
+<div>
+<img src="../res/submiting.gif"/>
+</div>
+<div style="padding-top:16px;" id="wifi_reboot_info" lang-id="content.submitting">
+</div>
+</div>
+</div>
+</div>
+<div class="guide_table_bottom">
+&nbsp;
+</div>
+</div>
+</div>
+</div>
+<div id="password_rule_win" class="out_win_content_modifypwd submit_background hide">
+<div class="border_left border_right padding-right-30 color_background_white" style="margin-top:-1px">
+<div class="margin-left-30">
+<div class="color_Darkgray" style="font-size: 16px; padding-top:30px;" lang-id="system_label_modify_assword_rule_shint"></div>
+<div style="margin-top: 30px; font-size: 14px;line-height: 140%;">
+<div>
+<span lang-id="system_label_modify_assword_rule_available_character_type"></span>
+</div>
+<div>
+<span lang-id="system_label_modify_assword_rule_character_type"></span>
+</div>
+</div>
+<div style="margin-top: 30px;">
+<div>
+<span lang-id="system_label_modify_assword_rule_low"></span>
+</div>
+<div>
+<span lang-id="system_label_modify_assword_rule_low_digits"></span>
+</div>
+<div>
+<span lang-id="system_label_modify_assword_rule_one_type"></span>
+</div>
+<div>
+<span lang-id="system_label_modify_assword_rule_same"></span>
+</div>
+</div>
+<div style="margin-top: 30px;">
+<div>
+<span lang-id="system_label_modify_assword_rule_medium"></span>
+</div>
+<div>
+<span lang-id="system_label_modify_assword_rule_medium_digits"></span>
+</div>
+</div>
+<div style="margin-top: 30px;">
+<div>
+<span lang-id="system_label_modify_assword_rule_high"></span>
+</div>
+<div>
+<span lang-id="system_label_modify_assword_rule_high_digits"></span>
+</div>
+<div>
+<span lang-id="system_label_modify_assword_rule_high_digits_two"></span>
+</div>
+</div>
+<div style="margin-top: 30px;">
+<div>
+<span lang-id="note"></span>
+<span lang-id="system_label_modify_assword_rule_note"></span>
+</div>
+</div>
+</div>
+<div class="clearboth"></div>
+<div style="padding-top: 50px;padding-bottom: 20px;" align="center">
+<button class="btn_normal_short margin-left-30" lang-id="common_confirm" onclick="EMUI.AccountObjController.modifyPwdConfirm(false)"></button>
+</div>
+</div>
+</div>
+<div class="body_background clearboth" style="position:absolute;width:100%;bottom:0"></div>
+</div>
+<div id="page_footer" style="height:80px;background-color:#F3F3F3;width:100%;">
+<div style="width:1150px;height:50px;margin:0 auto;background-color:#F3F3F3;">
+<div class="clearboth footercontainer">
+<div id="foot_hotlink_container" class="hotlink_container hide">
+<ul id="foot_hotlink_content"></ul>
+</div>
+<div id="copyright">
+<table cellpadding="0" cellspacing="0" frame=void rules=none align="center">
+<tr>
+<td class="padding-left-20">
+<div class="padding-left-20" style="cursor:pointer;">
+<a id="footer_privacyNotice" class="color_descroption_gray" style=""
+href="../html/privacystatement.html" target="_blank"
+rel="noopener noreferrer" lang-id="privacy_notice_title"></a>
+</div>
+</td>
+<td class="padding-left-20">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<a id="footer_userAgreement" class="color_descroption_gray" style=""
+href="" target="_blank"
+rel="noopener noreferrer" lang-id="user_agreement_title"></a>
+</div>
+</td>
+<td class="padding-left-20">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<a id="footer_privacyPolicy" class="color_descroption_gray" style=""
+href="" target="_blank"
+rel="noopener noreferrer" lang-id="privacy_statement_title"></a>
+</div>
+</td>
+<td class="padding-left-20">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<a href="/html/OPEN_SOURCE_SOFTWARE_NOTICE.txt" rel="noopener noreferrer"
+target="_blank" style="" class="color_descroption_gray" lang-id="footer.opensource"></a>
+</div>
+</td>
+<td id="safeinfo_td" class="padding-left-20">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<a id="safeinfo" href="" rel="noopener noreferrer"
+target="_blank" style="" class="color_descroption_gray" lang-id="safe.question"></a>
+</div>
+</td>
+</tr>
+</table>
+<table style="margin-top:5px; margin-bottom:12px" cellpadding="0" cellspacing="0" frame=void rules=none
+align="center">
+<tr>
+<td class="padding-left-20">
+<a id="help_href" href="#" rel="noopener noreferrer" target="_blank"
+class="pull-left hide padding-left-20 color_descroption_gray" style="">
+<div class="pull-left footer-help" lang-id="footer.help">
+</div>
+</a>
+</td>
+<td class="padding-left-20" id="hilink_disenable">
+<div class="padding-left-20 border_left color_border_gray" style="cursor:pointer;">
+<span data-smarthome='download' style="" class="color_descroption_gray" lang-id="hilink_download"
+onclick="createHiLinkAppDownload()"></span>
+</div>
+</td>
+<td class="padding-left-20">
+<div class="padding-left-20 border_left color_descroption_gray color_border_gray" style=""
+id="footer_copyright">
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="clearboth">
+</div>
+<div id="submit_light" class="submit_white_content submit_background">
+<div class="common_win_top">
+</div>
+<div class="color_Darkgray color_background_white" align="center"
+style="font-size:14px;width:508px;padding-top:48px;min-height:130px;">
+<div id="forgetpassword_info" style="line-height: 25px;width: 410px;" lang-id="index.forgetpassword.info">
+</div>
+<div style="margin-top: 45px;padding-bottom: 10px;">
+<button lang-id="btn.cofirm" class="btn_normal_short"
+onclick="EMUI.LoginObjController.hideWin()">
+</button>
+</div>
+</div>
+<div class="common_win_bottom">
+</div>
+</div>
+<div id="submit_fade" class="submit_black_overlay hide">
+</div>
+<div class="hilinkapp_download_box submit_background hide">
+<div class="hilink_table_top">
+</div>
+<div class="border_left border_right margin_bottom_box2 color_background_white" style="">
+<div align="center" class="border_bottom color_Darkgray" style="height: 47px;font-size: 16px;">
+<div class="hilinkdown_left" lang-id="hilink_download">
+</div>
+<div class="btn_cancel" onclick="createHiLinkAppDownloadCancel();">
+</div>
+</div>
+<div class="hilinkapp_download_img" align="center">
+<a class="hilinkapp_download_href" href="#" rel="noopener noreferrer" target="_blank">
+<div class="hlink_qrcode">
+</div>
+</a>
+</div>
+<div align="center">
+<span class="hilinkapp_string" lang-id="index.qrcode"></span>
+</div>
+<div class="hilinkapp_btn" align="center">
+<a class="hilinkapp_download_href btn_normal_short" href="#" lang-id="IDS_common_download" rel="noopener noreferrer" target="_blank"
+style="display: block">
+</a>
+</div>
+</div>
+<div class="hilink_table_bottom">
+</div>
+</div>
+</div>
+</body>
+</html>

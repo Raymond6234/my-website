@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<languages>
+<language>fr-fr</language>
+<language>en-us</language>
+</languages>
+<usermanual_language>
+<default_language>fr-fr</default_language>
+<support_language>
+<language>fr-fr</language>
+<language>en-us</language>
+</support_language>
+</usermanual_language>
+<safe_question_url>
+<cpe>
+<zh_cn>https://smarthome.hicloud.com:8443/device/guide/mbb/cpe/safeinfo_zh.html</zh_cn>
+<en_us>https://smarthome.hicloud.com:8443/device/guide/mbb/cpe/safeinfo_en.html</en_us>
+</cpe>
+<e5>
+<zh_cn>https://smarthome.hicloud.com:8443/device/guide/mbb/e5/safeinfo_zh.html</zh_cn>
+<en_us>https://smarthome.hicloud.com:8443/device/guide/mbb/e5/safeinfo_en.html</en_us>
+</e5>
+</safe_question_url>
+</config>

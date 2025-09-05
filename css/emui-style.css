@@ -1,0 +1,7462 @@
+﻿﻿@media screen and (min-width: 992px){
+.select_on_normal:hover {
+width: 340px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=0.3140148108425084&_=20923866270935232');
+background-position: left -4559px;
+}
+.select_on_spanner:hover {
+width: 97px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+padding-left: 8px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=0.3140148108425084&_=20923866270935232');
+background-position: left -9854px;
+}
+}
+html, body {
+margin: 0;
+padding: 0;
+border: 0;
+direction: ltr;
+font-size: 14px;
+min-width: 1350px;
+font-family: Arial, 'Microsoft Yahei', 'zawgyi-one';
+-moz-text-size-adjust:none;
+-webkit-text-size-adjust:none;
+-ms-text-size-adjust:none;
+text-size-adjust:none;
+}
+.blue-link {
+display: none;
+text-align: center;
+color: #007DFF;
+font-size: 16px;
+cursor: pointer;
+}
+.device_message_bottom_27 {
+display:none;
+width: 120px;
+box-sizing:border-box;
+padding: 10px;
+border-radius:5px;
+color: white;
+background-color: #48BBD8;
+position: absolute;
+bottom: 27px;
+left:0;
+}
+.device_message_bottom_75 {
+display:none;
+width: 120px;
+box-sizing:border-box;
+padding: 10px;
+border-radius:5px;
+color: white;
+background-color: #48BBD8;
+position: absolute;
+bottom: 75px;
+left:0;
+}
+.triangle {
+width:0;
+height:0;
+border-width:10px 10px 0px 10px;
+border-style:solid;
+border-color: #48BBD8 transparent transparent;
+position: absolute;
+bottom: -8px;
+left: 50px;
+}
+.margin-left-24 {
+margin-left: 24px !important;
+}
+.margin-left-58 {
+margin-left: 58px !important;
+}
+.margin-left-79 {
+margin-left: 79px !important;
+}
+.margin-left-83 {
+margin-left: 83px !important;
+}
+.margin-left-138 {
+margin-left: 138px !important;
+}
+.margin-left-140 {
+margin-left: 140px !important;
+}
+.margin-left-141 {
+margin-left: 141px !important;
+}
+.margin-left-200 {
+margin-left: 200px !important;
+}
+.margin-left-259 {
+margin-left: 259px !important;
+}
+.margin-left-261 {
+margin-left: 261px !important;
+}
+.margin-left-319 {
+margin-left: 319px !important;
+}
+.margin-left-323 {
+margin-left: 323px !important;
+}
+.margin-left-378 {
+margin-left: 378px !important;
+}
+.margin-left-381 {
+margin-left: 381px !important;
+}
+.margin-left-441 {
+margin-left: 441px !important;
+}
+.margin-left-443 {
+margin-left: 443px !important;
+}
+.margin-left-500 {
+margin-left: 500px !important;
+}
+.margin-left-502 {
+margin-left: 502px !important;
+}
+.margin-left-563 {
+margin-left: 563px !important;
+}
+.margin-left-622 {
+margin-left: 622px !important;
+}
+.margin-left-687 {
+margin-left: 687px !important;
+}
+.margin-left-742 {
+margin-left: 742px !important;
+}
+.margin-left-803 {
+margin-left: 803px !important;
+}
+.margin-left-862 {
+margin-left: 862px !important;
+}
+.devicemanagement_internet_error {
+width: 24px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -0px;
+}
+.devicemanagement_topo_img_1 {
+width: 2px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -72px;
+}
+.devicemanagement_topo_img_2 {
+width: 122px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -144px;
+}
+.devicemanagement_topo_img_3 {
+width: 242px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -216px;
+}
+.devicemanagement_topo_img_4 {
+width: 362px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -288px;
+}
+.devicemanagement_topo_img_5 {
+width: 482px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -360px;
+}
+.devicemanagement_topo_img_6 {
+width: 602px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -432px;
+}
+.devicemanagement_topo_img_7 {
+width: 722px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -504px;
+}
+.devicemanagement_topo_img_8 {
+width: 122px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -576px;
+}
+.devicemanagement_topo_img_9 {
+width: 242px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -648px;
+}
+.devicemanagement_topo_img_10 {
+width: 362px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -720px;
+}
+.devicemanagement_topo_img_11 {
+width: 482px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -792px;
+}
+.devicemanagement_topo_img_12 {
+width: 602px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -864px;
+}
+.devicemanagement_topo_img_13 {
+width: 722px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -936px;
+}
+.devicemanagement_topo_img_14 {
+width: 362px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1008px;
+}
+.devicemanagement_topo_img_15 {
+width: 482px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1080px;
+}
+.devicemanagement_topo_img_16 {
+width: 602px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1152px;
+}
+.devicemanagement_topo_img_17 {
+width: 722px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1224px;
+}
+.devicemanagement_topo_img_18 {
+width: 602px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1296px;
+}
+.devicemanagement_topo_img_19 {
+width: 722px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1368px;
+}
+.devicemanagement_topo_img_20 {
+width: 722px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1440px;
+}
+.devicemanagement_topo_img_21 {
+width: 482px;
+height: 72px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1512px;
+}
+.devicemanagement_topo_img_22 {
+width: 602px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1584px;
+}
+.devicemanagement_topo_img_23 {
+width: 722px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1656px;
+}
+.devicemanagement_topo_img_24 {
+width: 242px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1728px;
+}
+.devicemanagement_topo_img_25 {
+width: 362px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1800px;
+}
+.devicemanagement_topo_img_26 {
+width: 482px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1872px;
+}
+.devicemanagement_topo_img_27 {
+width: 602px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -1944px;
+}
+.devicemanagement_topo_img_28 {
+width: 722px;
+height: 72px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -2016px;
+}
+.devicemanagement_topo_hi {
+width: 20px;
+height: 20px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -2088px;
+}
+.devicemanagement_button_left {
+width: 24px;
+height: 36px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -2108px;
+}
+.devicemanagement_button_left_disable {
+width: 24px;
+height: 36px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -2144px;
+}
+.devicemanagement_button_right {
+width: 24px;
+height: 36px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -2180px;
+}
+.devicemanagement_button_right_disable {
+width: 24px;
+height: 36px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -2216px;
+}
+.devicemanagement_topo_minus_circle_light {
+width: 24px;
+height: 48px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -2252px;
+}
+.devicemanagement_topo_plus_circle_light {
+width: 24px;
+height: 48px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon10.png?r=1640759658');
+background-position: left -2300px;
+}
+.hide_with_ellipsis {
+white-space: nowrap;
+text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+overflow: hidden;
+}
+div[class*='input_long'] input[type="password"] {
+font-size: 14px;
+outline: none;
+border-style: none;
+background-color: transparent;
+-webkit-appearance: none;
+border-radius: 0;
+height: 30px;
+width: 412px;
+line-height: 30px \9;
+font-family: Arial, 'Microsoft Yahei', 'zawgyi-one';
+}
+div[class*='input_long'] input[type="text"] {
+font-size: 14px;
+outline: none;
+border-style: none;
+background-color: transparent;
+-webkit-appearance: none;
+border-radius: 0;
+width: 442px;
+height: 30px;
+line-height: 30px \9;
+font-family: Arial, 'Microsoft Yahei', 'zawgyi-one';
+}
+input[type="text"], textarea {
+font-size: 14px;
+outline: none;
+border-style: none;
+background-color: transparent;
+-webkit-appearance: none;
+border-radius: 0;
+width: 310px;
+height: 30px;
+padding:0;
+margin-top: 1px;
+line-height: 30px \9;
+font-family: Arial, 'Microsoft Yahei', 'zawgyi-one';
+}
+input[type="password"] {
+font-size: 14px;
+outline: none;
+border-style: none;
+background-color: transparent;
+-webkit-appearance: none;
+border-radius: 0;
+height: 30px;
+padding:0;
+margin-top: 1px;
+width: 280px;
+line-height: 30px \9;
+font-family: Arial, 'Microsoft Yahei', 'zawgyi-one';
+}
+.sms_message {
+display:table;
+max-width:448px;
+min-height:54px;
+box-sizing: border-box;
+-moz-border-radius: 27px;
+-webkit-border-radius: 27px;
+border-radius:27px;
+}
+.sms_btn_new {
+margin-top: 0px !important;
+}
+.sms_item_moretwoline_style {
+position: relative;
+line-height: 20px;
+height: 40px;
+overflow: hidden;
+width: 370px;
+}
+.sms_item_moreoneline_style::after, .sms_item_moretwoline_style::after {
+content: "...";
+position: absolute;
+bottom: 0;
+right: 0;
+background: -webkit-linear-gradient(left, transparent, #fff 0%);
+background: -o-linear-gradient(right, transparent, #fff 0%);
+background: -moz-linear-gradient(right, transparent, #fff 0%);
+background: linear-gradient(to right, transparent, #fff 0%);
+}
+.sms_item_moreoneline_style:after, .sms_item_moretwoline_style:after {
+content: "...";
+position: absolute;
+bottom: 0;
+right: 0;
+background: linear-gradient(to right, transparent, #fff 0%);
+}
+.sms_item_moreoneline_style {
+position: relative;
+line-height: 50px;
+height: 50px;
+overflow: hidden;
+width: 120px;
+}
+.sms_item_oneline_style {
+line-height: 50px;
+line-height: 50px \9;
+}
+.sms_item_twoline_style {
+line-height: 20px;
+line-height: 20px \9;
+}
+.wordbreak, .workbreak {
+word-wrap: break-word;
+word-break: break-all;
+}
+.sms_content_wordbreak {
+word-wrap: break-word;
+}
+.keepline {
+word-break: keep-all;
+white-space: nowrap;
+}
+.pointer {
+cursor: pointer;
+}
+input:-webkit-autofill {
+-webkit-box-shadow: 0 0 0px 1000px #F3F3F3 inset;
+}
+input:focus, textarea:focus {
+outline: 0 none;
+}
+::-ms-clear, ::-ms-reveal {
+display: none;
+}
+a, img, button, input, textarea, * {
+-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+font-family: Arial, 'Microsoft Yahei', 'zawgyi-one';
+}
+input, button, a {
+outline: 0 none !important;
+blr: expression(this.onFocus=this.blur());
+}
+.submit_black_overlay {
+position: absolute;
+z-index: 15;
+zoom: 1;
+width: 100%;
+min-width: 1350px;
+height: 100%;
+top: 0;
+left: 0;
+overflow: hidden;
+filter: alpha(opacity=50);
+opacity: 0.5;
+}
+.submit_white_content {
+width: 508px;
+display: none;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -200px;
+margin-left: -250px;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+}
+.phone_submit_white_content {
+width: 508px;
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -360px;
+margin-left: -250px;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+}
+.index_pop_content {
+width: 630px;
+display: none;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -230px;
+margin-left: -315px;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+}
+.pop_win {
+width: 524px;
+position: fixed;
+bottom: 0px;
+right: 0px;
+overflow-y: hidden;
+overflow-x: hidden;
+z-index: 10;
+}
+.pop_win_content {
+margin-top: 20px;
+padding-left: 30px;
+padding-right: 30px;
+line-height: 150%;
+width: 464px;
+}
+.out_win_content {
+width: 680px;
+display: none;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -250px;
+margin-left: -340px;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+}
+.phone_out_win_content {
+width: 680px;
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -340px;
+margin-left: -340px;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+}
+.device_width {
+width: 504px;
+}
+a {
+text-decoration: none;
+}
+button {
+outline: none;
+color: gray;
+cursor: pointer;
+}
+.header {
+width: 1000px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin:0 auto;
+position: relative;
+}
+#header_right {
+position: absolute;
+right: 0px;
+bottom: 10px;
+}
+.pull-left {
+float: left;
+}
+.pull-right {
+float: right;
+}
+.text-left {
+text-align: left;
+}
+.text-right {
+text-align: right;
+}
+.margin-left-0 {
+margin-left: 0px !important;
+}
+.margin-left-165{
+margin-left: 165px !important;
+}
+.margin-left-50 {
+margin-left: 50px !important;
+}
+.margin-left-40 {
+margin-left: 40px !important;
+}
+.margin-left-8 {
+margin-left: 8px !important;
+}
+.margin-left-4 {
+margin-left: 4px !important;
+}
+.margin-left-10 {
+margin-left: 10px !important;
+}
+.margin-left-15 {
+margin-left: 15px !important;
+}
+.margin-left-17 {
+margin-left: 17px !important;
+}
+.margin-left-20 {
+margin-left: 20px !important;
+}
+.margin-left-33 {
+margin-left: 33px !important;
+}
+.margin-left-35 {
+margin-left: 35px !important;
+}
+.margin-left-78 {
+margin-left: 78px !important;
+}
+.margin-left-30 {
+margin-left: 30px !important;
+}
+.margin-left-80 {
+margin-left: 80px !important;
+}
+.margin-left-90 {
+margin-left: 90px !important;
+}
+.margin-left-100 {
+margin-left: 100px !important;
+}
+.margin-left-27 {
+margin-left: 27px !important;
+}
+.margin-right-5 {
+margin-right: 5px !important;
+}
+.margin-right-10 {
+margin-right: 10px !important;
+}
+.margin-right-9 {
+margin-right: 9px !important;
+}
+.margin-right-78 {
+margin-right: 78px !important;
+}
+.margin-right-22 {
+margin-right: 22px !important;
+}
+.margin-right-110 {
+margin-right: 110px !important;
+}
+.margin-right-250 {
+margin-right: 250px !important;
+}
+.margin-right-20 {
+margin-right: 20px !important;
+}
+.margin-right-30 {
+margin-right: 30px !important;
+}
+.margin-right-0 {
+margin-right: 0px !important;
+}
+.margin-right-40 {
+margin-right: 40px !important;
+}
+.padding-right-20 {
+padding-right: 20px !important;
+}
+.padding-right-8 {
+padding-right: 8px !important;
+}
+.padding-right-10 {
+padding-right: 10px !important;
+}
+.padding-right-30 {
+padding-right: 30px !important;
+}
+.padding-left-10 {
+padding-left: 10px !important;
+}
+.padding-left-20 {
+padding-left: 20px !important;
+}
+.padding-left-30 {
+padding-left: 30px !important;
+}
+.padding-left-60 {
+padding-left: 60px !important;
+}
+.padding-left-155 {
+padding-left: 155px !important;
+}
+.clearboth {
+clear: both;
+zoom: 1;
+}
+.headcontainer {
+width: 100%;
+min-width: 1350px;
+}
+.onePageTitle {
+height:76px;
+font-size:18px;
+text-align:center;
+line-height: 76px;
+}
+.nvacontraner {
+clear: both;
+width: 1000px;
+margin: 0 auto;
+}
+.bodycontainer {
+clear: both;
+width: 1000px;
+margin: 0 auto;
+}
+.border_left {
+border-left: 1px solid #E9E9E9;
+}
+.border_right {
+border-right: 1px solid #E9E9E9;
+}
+.border_top {
+border-top: 1px solid #E9E9E9;
+}
+.border_bottom {
+border-bottom: 1px solid #E9E9E9;
+}
+.error_info {
+margin-left: 3px;
+margin-top: 5px;
+width: 333px;
+}
+.topmenu {
+font-size: 18px;
+height: 76px;
+text-align: center;
+cursor: pointer;
+}
+.topmenu_normal {
+cursor: pointer;
+}
+.secondmenu {
+box-sizing: border-box;
+padding-left: 20px;
+height: 48px;
+font-size: 18px;
+cursor: pointer;
+display: table;
+width:260px;
+word-break:keep-all;
+}
+.secondmenu_child,.thirdleftmenu_child {
+display:table-cell;
+vertical-align: middle;
+}
+.thirdleftmenu {
+padding-left: 30px;
+height: 48px;
+font-size: 14px;
+cursor: pointer;
+display: table;
+width:230px;
+}
+.leftmenuarea {
+width: 260px;
+min-height: 500px;
+float: left;
+background-color: #FCFCFC;
+}
+.rightpagearea {
+width: 690px;
+min-height: 500px;
+float: left;
+}
+.footercontainer {
+clear: both;
+width: 1000px;
+height: 62px;
+margin: 0 auto;
+padding-top: 18px;
+font-size: 14px;
+}
+.footer-location {
+position: absolute;
+bottom: 0px;
+}
+.footer-help {
+margin-left: 3px;
+cursor: pointer;
+margin-top: 2px;
+}
+.page_footer {
+height: 50px;
+min-width: 1150px;
+}
+#page_footer {
+min-width: 1350px;
+}
+.indexcontainer {
+margin: 0 auto;
+width: 630px;
+height: 386px;
+padding-top: 142px;
+outline: none;
+border-style: none;
+}
+.logincontainer {
+padding-top: 30px;
+margin: 0 auto;
+width: 364px;
+}
+.hide {
+display: none;
+}
+.show {
+display: block;
+}
+.control-label {
+font-size: 14px;
+width: 170px;
+margin-top: 8px;
+margin-right: 10px;
+float: left;
+}
+.controls {
+float: left;
+font-size: 14px;
+width: 340px;
+}
+.controls-content {
+margin-top: 8px;
+}
+.controls-descript {
+float: left;
+font-size: 14px;
+width: 500px;
+margin-top: 8px;
+}
+.control-label-win {
+font-size: 14px;
+width: 170px;
+margin: 8px 10px 0 80px;
+float: left;
+}
+.controls-win {
+float: left;
+font-size: 14px;
+width: 345px;
+}
+.maintitle {
+width: 690px;
+overflow: hidden;
+font-size: 18px;
+padding-bottom: 20px;
+border-bottom: #E9E9E9 solid 1px;
+}
+.maintitlewithhelp {
+width: 690px;
+overflow: hidden;
+margin-top: 8px;
+font-size: 18px;
+padding-bottom: 16px;
+border-bottom: #E9E9E9 solid 1px;
+}
+.spriteImage {
+}
+.input_long_error {
+width: 472px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -0px;
+}
+.input_long_selected, .input_long:focus, .input_long:hover {
+width: 472px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -32px;
+}
+.input_long {
+width: 472px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -64px;
+}
+.ic_home {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -97px;
+}
+.ic_home_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -125px;
+}
+.ic_customurl {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -153px;
+}
+.ic_customurl_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -153px;
+}
+.ic_wanconfig, .ic_mobilenetwork, .ic_ethernet, .ic_mobilesearch {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -181px;
+}
+.ic_wanconfig_selected, .ic_mobilenetwork_selected, .ic_ethernet_selected, .ic_mobilesearch_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -209px;
+}
+.ic_devicemanagement {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -237px;
+}
+.ic_devicemanagement_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -265px;
+}
+.ic_wifisettings, .ic_guestwifi, .ic_wifieasy {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -293px;
+}
+.ic_wifisettings_selected, .ic_guestwifi_selected, .ic_wifieasy_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -321px;
+}
+.ic_tools {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -349px;
+}
+.ic_tools_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -377px;
+}
+.ic_advanceset {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -405px;
+}
+.ic_advanceset_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -433px;
+}
+.ic_childrenprotect {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -461px;
+}
+.ic_childrenprotect_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -489px;
+}
+.ic_phonebook {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -517px;
+}
+.ic_phonebook_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -545px;
+}
+.ic_smstool, .ic_sms {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -573px;
+}
+.ic_smstool_selected, .ic_sms_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -601px;
+}
+.ic_ussd {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -630px;
+}
+.ic_ussd_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -658px;
+}
+.ic_stk {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -686px;
+}
+.ic_stk_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -714px;
+}
+.ic_celllock {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -742px;
+}
+.ic_celllock_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -770px;
+}
+.ic_statistic {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -798px;
+}
+.ic_statistic_selected {
+width: 28px;
+height: 28px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -826px;
+}
+.ic_back {
+width: 22px;
+height: 22px;
+margin-right: 8px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -854px;
+}
+.ic_back:hover {
+width: 22px;
+height: 22px;
+margin-right: 8px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -876px;
+}
+.back_text {
+font-size: 16px;
+}
+.back_line {
+width: 690px;
+overflow: hidden;
+padding-bottom: 20px;
+border-bottom: #E9E9E9 solid 1px;
+}
+.logo {
+width: 400px;
+margin-top: 2px;
+margin-bottom: 5px;
+overflow: hidden;
+}
+.guidelogo {
+width: 269px;
+height: 95px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/guidelogo.png?r=1640759658');
+}
+.btn_normal_long:hover {
+width: 340px;
+height: 44px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -898px;
+}
+.btn_normal_long {
+width: 340px;
+height: 44px;
+line-height: 44px;
+overflow: hidden;
+cursor: pointer;
+border: none;
+outline: none;
+font-size: 14px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -942px;
+}
+.btn_normal_short:hover {
+width: 230px;
+height: 44px;
+line-height: 44px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -987px;
+}
+.btn_normal_short {
+width: 230px;
+height: 44px;
+line-height: 44px;
+overflow: hidden;
+cursor: pointer;
+border: none;
+outline: none;
+font-size: 14px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1032px;
+}
+.input_normal_selected, .input_normal:focus, .input_normal:hover {
+width: 340px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1077px;
+}
+.input_normal_iphone {
+text-indent: 8px !important;
+}
+.input_normal {
+width: 340px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1110px;
+}
+.input_normal_forbidden, .input_normal_forbidden:hover {
+width: 340px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1110px;
+}
+.input_normal_disabled {
+width: 340px;
+height: 32px;
+*padding-left: 15px;
+text-indent: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1144px;
+}
+.input_error {
+width: 340px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1177px;
+}
+.table_title_line{
+display: table;
+text-align: center;
+height: 35px;
+background-color: #f3f3f3;
+}
+.table_content_line {
+display: table;
+text-align: center;
+font-size: 14px;
+}
+.table_content_line_item {
+display: table-cell;
+vertical-align: middle;
+}
+.sms_user_input_readonly {
+width: 38px;
+height: 32px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1209px;
+}
+.sms_add_person_input {
+width: 552px;
+height: 32px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1241px;
+}
+.sms_add_person_input_selected, .sms_add_person_input:hover, .sms_add_person_input:focus {
+width: 552px;
+height: 32px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1273px;
+}
+.sms_resend_user_input {
+width: 510px;
+height: 32px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1305px;
+}
+.sms_resend_user_input_selected, .sms_resend_user_input:hover, .sms_resend_user_input:focus {
+width: 510px;
+height: 32px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1337px;
+}
+.sms_content_input {
+width: 640px;
+height: 100px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1369px;
+}
+.sms_content_input_selected, .sms_content_input:hover, .sms_content_input:focus {
+width: 640px;
+height: 100px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1469px;
+}
+.sms_textarea_top {
+width: 640px;
+height: 14px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1569px;
+}
+.sms_textarea_tophover {
+width: 640px;
+height: 14px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1584px;
+}
+.sms_textarea_bootom {
+width: 640px;
+height: 14px;
+margin-top: -3px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1598px;
+}
+.sms_textarea_bootomhover {
+width: 640px;
+height: 14px;
+margin-top: -3px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1613px;
+}
+.sms_send_content_textarea {
+font-size: 14px;
+line-height: 140%;
+width: 620px;
+min-height: 85px;
+max-height: 130px;
+overflow: auto;
+resize: none;
+padding-left: 10px;
+padding-right: 10px;
+margin: 0 auto;
+outline: 0;
+word-wrap: break-word;
+background-color: #efefef;
+}
+.sms_send_content_textareahover {
+font-size: 14px;
+line-height: 140%;
+width: 618px;
+min-height: 85px;
+max-height: 130px;
+border-right: 1px solid #007dff;
+border-left: 1px solid #007dff;
+overflow: auto;
+resize: none;
+padding-left: 10px;
+padding-right: 10px;
+margin: 0 auto;
+outline: 0;
+word-wrap: break-word;
+background-color: #efefef;
+}
+.select_off_normal:hover {
+width: 340px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4515px;
+}
+.select_off_normal {
+width: 340px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4547px;
+}
+.select_on_normal {
+width: 340px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4579px;
+}
+.select_on_normal:hover {
+width: 340px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4612px;
+}
+.select_on_normal_disable {
+width: 340px;
+height: 32px;
+overflow: hidden;
+line-height: 32px;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1757px;
+}
+.ic_warning {
+width: 24px;
+height: 24px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1790px;
+}
+.ic_warning_small {
+width: 16px;
+height: 16px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1814px;
+}
+.ic_upgrade_failed {
+width: 20px;
+height: 20px;
+float: left;
+margin-right: 8px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1830px;
+}
+.ic_upgrade_no_new_version {
+width: 21px;
+height: 21px;
+cursor: pointer;
+float: left;
+margin-right: 8px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1850px;
+}
+.ic_upgrade_success {
+width: 20px;
+height: 20px;
+cursor: pointer;
+float: left;
+margin-right: 8px;
+margin-left: 40px;
+margin-top: 45px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1871px;
+}
+.ic_upgrade_off_check {
+width: 20px;
+height: 20px;
+cursor: pointer;
+float: left;
+margin-right: 8px;
+margin-left: 40px;
+margin-top: 45px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1891px;
+}
+.ic_upgrade_on_check_press {
+width: 20px;
+height: 20px;
+cursor: pointer;
+float: left;
+margin-right: 8px;
+margin-left: 40px;
+margin-top: 45px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1911px;
+}
+.upg_loading_bg {
+width: 80px;
+height: 4px;
+overflow: hidden;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1931px;
+}
+.upg_loading {
+width: 80px;
+height: 4px;
+overflow: hidden;
+margin-left: 20px;
+margin-top: -4px;
+z-index: 2;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1935px;
+}
+.margin_left_11px {
+margin-left: 11px;
+}
+.ic_upgrade_open {
+width: 16px;
+height: 16px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1939px;
+}
+.ic_upgrade_close {
+width: 16px;
+height: 16px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1955px;
+}
+.upgrade_close_autoupg_warn {
+width: 48px;
+height: 48px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1971px;
+}
+.ic_sms_resend {
+width: 24px;
+height: 24px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2019px;
+}
+.switch_off {
+width: 50px;
+height: 26px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2043px;
+}
+.switch_on {
+width: 50px;
+height: 26px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2070px;
+}
+.switch_on_disable {
+width: 50px;
+height: 26px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2096px;
+}
+.switch_off_disable {
+width: 50px;
+height: 26px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2123px;
+}
+.check_off {
+width: 20px;
+height: 20px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2150px;
+}
+.check_on {
+width: 20px;
+height: 20px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2171px;
+}
+.radio_btn_off {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2191px;
+}
+.radio_btn_off_disabled {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2212px;
+}
+.radio_btn_on {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2233px;
+}
+.radio_btn_on_disabled {
+width: 20px;
+height: 20px;
+margin-right: 10px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2253px;
+}
+.login_btn_normal_long {
+width: 300px;
+height: 44px;
+overflow: hidden;
+cursor: pointer;
+border: none;
+outline: none;
+font-size: 14px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2273px;
+}
+.login_btn_normal_long:hover {
+width: 300px;
+height: 44px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2318px;
+}
+.guide_btn_normal_long {
+width: 300px;
+height: 40px;
+overflow: hidden;
+cursor: pointer;
+border: none;
+outline: none;
+font-size: 14px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2363px;
+}
+.guide_btn_normal_long:hover {
+width: 300px;
+height: 40px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2404px;
+}
+.hlink_qrcode {
+width: 160px;
+height: 160px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2445px;
+}
+.smart_qrcode {
+width: 160px;
+height: 160px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2605px;
+}
+.qrcodecontainer {
+width: 266px;
+font-size: 14px;
+}
+.login_image {
+width: 126px;
+height: 126px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2765px;
+}
+.e5_login_image {
+width: 108px;
+height: 112px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -2891px;
+}
+.e5_ic_device_upgrade {
+width: 64px;
+height: 64px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3003px;
+}
+#language_info {
+cursor:pointer;
+font-size:18px;
+}
+.guide_input_descript {
+width: 340px;
+margin-top: 8px;
+}
+.guide_input_label {
+width:260px;
+margin-top:8px;
+margin-right:50px;
+margin-left:20px;
+}
+.ic_guide_upgrade_close {
+width: 24px;
+height: 24px;
+margin-right: 8px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -1790px;
+}
+input.guide_login_input::-moz-placeholder {
+color: #aacefa;
+}
+input.guide_login_input::-webkit-input-placeholder {
+color: #aacefa;
+}
+input.guide_login_input:-ms-input-placeholder {
+color: #aacefa;
+}
+.logincontainer .login_pwd_input {
+width: 250px;
+overflow: hidden;
+height: 23px;
+margin-top: 8px;
+line-height: 17px;
+}
+#cradleDisconnected_login_box .login_pwd_input {
+width: 250px;
+overflow: hidden;
+height: 23px;
+margin-top: 8px;
+line-height: 17px;
+}
+.guide_password {
+width: 300px;
+height: 40px;
+text-align: left;
+text-indent: 15px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3067px;
+}
+.guide_password_error {
+width: 300px;
+height: 40px;
+text-align: left;
+text-indent: 15px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3107px;
+}
+.guide_password_selected, .guide_password:focus, .guide_password:hover {
+width: 300px;
+height: 40px;
+text-align: left;
+text-indent: 15px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3147px;
+}
+.guide_password_input {
+overflow: hidden;
+}
+.login_password {
+width: 300px;
+height: 40px;
+text-align: left;
+text-indent: 15px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3187px;
+}
+.login_password_error {
+width: 300px;
+height: 40px;
+text-align: left;
+text-indent: 15px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3228px;
+}
+.login_password_selected, .login_password:focus, .login_password:hover {
+width: 300px;
+height: 40px;
+text-align: left;
+text-indent: 15px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3268px;
+}
+.login_password_input {
+overflow: hidden;
+}
+.guide_check_off {
+width: 18px;
+height: 18px;
+overflow: hidden;
+cursor: pointer;
+border: none;
+outline: none;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3308px;
+}
+.guide_check_on {
+width: 18px;
+height: 18px;
+cursor: pointer;
+overflow: hidden;
+border: none;
+outline: none;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3326px;
+}
+.login_back_ground {
+width: 630px;
+height: 386px;
+overflow: hidden;
+position: absolute;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3344px;
+}
+.error {
+text-align: left;
+padding-left: 32px;
+}
+.guide_error {
+text-align: left;
+}
+.round_bottom_left {
+width: 16px;
+height: 16px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3778px;
+}
+.round_top_left {
+width: 16px;
+height: 16px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3762px;
+}
+.round_top_right {
+width: 16px;
+height: 16px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3746px;
+}
+.round_bottom_right {
+width: 16px;
+height: 16px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3730px;
+}
+.lang_normal {
+width: 16px;
+height: 16px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3794px;
+}
+.lang_normal:hover {
+width: 16px;
+height: 16px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3810px;
+}
+.adv_pop_win_top {
+width: 524px;
+height: 60px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3826px;
+}
+.adv_pop_win_bottom {
+width: 524px;
+height: 33px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3886px;
+}
+.adv_pop_win_middle {
+width: 524px;
+overflow: hidden;
+background-repeat: repeat-y;
+background: url('../res/adv_pop_win_middle.png?r=1640759658');
+}
+.home_font_style {
+font-size: 14px;
+cursor: pointer;
+}
+.home_battery_dynamic_back {
+background-color: #7C7C7C;
+height: 4px;
+}
+.home_connet_btn {
+margin-top: 40px;
+margin-left: -40px;
+}
+.home_connect_fail {
+width: 160px;
+height: 25px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3919px;
+}
+.home_connect_ok {
+width: 160px;
+height: 24px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3944px;
+}
+.home_sim_close {
+width: 160px;
+height: 24px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3968px;
+}
+.home_desktop {
+width: 120px;
+height: 100px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -3993px;
+}
+.home_down, .devicemanagement_home_down {
+width: 14px;
+height: 14px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4093px;
+}
+.home_up, .devicemanagement_home_up {
+width: 14px;
+height: 14px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4107px;
+}
+.home_internet {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -0px;
+}
+.home_internet1 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -98px;
+}
+.home_router {
+width: 78px;
+height: 138px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -196px;
+}
+.battery_low {
+width: 120px;
+height: 76px;
+background-repeat: no-repeat;
+background-image: url('../res/battery_low.gif?r=1640759658');
+}
+.battery_charge {
+width: 120px;
+height: 76px;
+background-repeat: no-repeat;
+background-image: url('../res/battery_charge.gif?r=1640759658');
+}
+.upgrade_dynamic_cycle {
+width: 60px;
+height: 60px;
+background-repeat: no-repeat;
+background-image: url('../res/submiting.gif?r=1640759658');
+}
+.battery_normal {
+width: 11px;
+height: 40px;
+padding-top: 36px;
+padding-left: 84px;
+padding-right: 25px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -335px;
+}
+.upgrade_dynamic {
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/upgrade_dynamic.gif?r=1640759658');
+}
+.home_no_sim {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -411px;
+}
+.home_sim_off_0 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -509px;
+}
+.home_sim_off_1 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -607px;
+}
+.home_sim_off_2 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -705px;
+}
+.home_sim_off_3 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -803px;
+}
+.home_sim_off_4 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -901px;
+}
+.home_sim_off_5 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -999px;
+}
+.home_sim_on_0 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1097px;
+}
+.home_sim_on_1 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1195px;
+}
+.home_sim_on_2 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1293px;
+}
+.home_sim_on_3 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1391px;
+}
+.home_sim_on_4 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1489px;
+}
+.home_sim_on_5 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1587px;
+}
+.usb_step_message{
+font-size: 14px;
+text-align: left;
+margin-top: 10px;
+}
+.usb_prompt_div {
+font-size: 15px;
+margin-top: 7px;
+}
+#usb_swtich_div {
+display: block;
+margin-top: 24px;
+}
+.usb_swtich_label {
+margin-top: 5px;
+font-size: 16px;
+width: 240px;
+}
+.usb_pic{
+margin: 30px 0 50px 180px;
+}
+.home_wifi_0 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1685px;
+}
+.home_wifi_1 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1783px;
+}
+.home_wifi_2 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1881px;
+}
+.home_wifi_3 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -1979px;
+}
+.home_wifi_4 {
+width: 114px;
+height: 98px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2077px;
+}
+.home_wifisingle {
+width: 15px;
+height: 14px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2175px;
+}
+.guide_wifi_icon {
+width: 22px;
+height: 22px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2189px;
+}
+.home_wifisingle_enable {
+width: 15px;
+height: 14px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2211px;
+}
+.home_status_margin_13{
+margin: 0 13px;
+}
+.home_status_margin_30{
+margin: 0 30px;
+}
+.home_status_margin_60{
+margin: 0 60px;
+}
+.home_status_margin_div{
+display:none;
+height:104px;
+width:0px;
+border-left:1px solid #E9E9E9;
+}
+.home_td_content_margin {
+margin-left:13px;
+}
+.home_status_font{
+font-size:18px;
+}
+.home_status_max_width {
+max-width:290px;
+}
+.home_sd_link_info_max_width{
+max-width:166px;
+}
+.body_background {
+height: 266px;
+margin-top: -266px;
+background-repeat: repeat-x;
+background-position: bottom center;
+background-image: url('../res/background.png?r=1640759658');
+}
+.img_form_bot {
+width: 680px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2225px;
+}
+.img_form_top {
+width: 680px;
+height: 60px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2237px;
+}
+.table_bottom {
+width: 680px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2297px;
+}
+.table_top {
+width: 680px;
+height: 65px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2310px;
+}
+.table_top_lower {
+width: 680px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2375px;
+}
+.icon_settings {
+float: right;
+margin: 21.5px 0px;
+}
+.btn_new {
+width: 22px;
+height: 22px;
+margin-top: 20px;
+margin-right: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2387px;
+}
+.ic_setup_normal {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2409px;
+}
+.ic_setup_normal:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2431px;
+}
+.btn_delete {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2453px;
+}
+.btn_edit {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2475px;
+}
+.btn_edit_disable {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2497px;
+}
+.btn_sort_up {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2519px;
+}
+.btn_sort_down {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-right: 30px;
+margin-left: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2541px;
+}
+.dev_btn_edit {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-top: 24px;
+margin-left: 10px;
+float: left;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2475px;
+}
+.dev_btn_edit_online {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-top: 16px;
+margin-left: 10px;
+float: left;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2475px;
+}
+.dev_btn_delete {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-left: 20px;
+margin-top: 24px;
+float: left;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2453px;
+}
+.progress_bar {
+width: 640px;
+height: 20px;
+margin: 12px 0px;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2563px;
+}
+.usedspace_bar {
+width: 5px;
+height: 20px;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2584px;
+}
+.warnspace_bar {
+width: 5px;
+height: 20px;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2604px;
+}
+.overspace_bar {
+width: 640px;
+height: 20px;
+margin: 12px 0px;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2624px;
+}
+.usedspace_bar_right {
+width: 10px;
+height: 20px;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3890px;
+}
+.warnspace_bar_right {
+width: 10px;
+height: 20px;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3910px;
+}
+.right_crumbs {
+width: 30px;
+height: 30px;
+margin-top: 2px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2684px;
+}
+.dev-table-height {
+height: 102px;
+}
+.dev-table-img {
+margin-top: 9px;
+margin-left: 10px;
+}
+.dev-table-time {
+font-size: 14px;
+margin-top: 38px;
+}
+.dev-table-time-down {
+font-size: 14px;
+margin-top: 2px;
+}
+.dev-table-host {
+font-size: 14px;
+margin-top: 20px;
+float: left;
+display: inline-block;
+white-space: nowrap;
+}
+.dev-table-host-offline {
+font-size: 14px;
+margin-top: 30px;
+float: left;
+display: inline-block;
+white-space: nowrap;
+}
+.dev-table-left-info {
+height: 102px;
+margin-left: 10px;
+}
+.dev-table-right-info {
+height: 102px;
+padding-right: 20px;
+padding-left: 20px;
+font-size: 14px;
+}
+.dev-table-mac {
+margin-top: 20px;
+}
+.dev-table-mac-offline {
+margin-top: 30px;
+}
+.dev-delete-offline {
+margin-top: 30px;
+}
+.dev-table-mac-v4-v6 {
+margin-top: 8px;
+}
+.dev-table-ip {
+margin-top: 5px;
+}
+.dev-table-switch {
+width: 128px;
+height: 80px;
+}
+.device-2GHz-frequency {
+height:22px;
+width: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2714px;
+}
+.device-2GHz-5GHz-frequency {
+height:22px;
+width: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2736px;
+}
+.device-5GHz-frequency {
+height:22px;
+width: 61px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2758px;
+}
+.device-ethernet-img {
+height:22px;
+width: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2780px;
+}
+.device_Interface_string {
+line-height: 22px;
+font-size: 14px;
+margin-left: 5px;
+}
+.selectwifimenu {
+float: left;
+margin-left: 123px;
+}
+.control-label-key {
+font-size: 14px;
+width: 400px;
+margin-top: 8px;
+float: left;
+margin-left: 176px;
+}
+.sms_page_location_normal {
+padding-left: 20px;
+cursor: pointer;
+}
+.device_black {
+width: 64px;
+height: 64px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2802px;
+}
+.device_wifi {
+width: 80px;
+height: 80px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2866px;
+}
+.device_offline {
+width: 80px;
+height: 80px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -2946px;
+}
+.device_eth {
+width: 80px;
+height: 80px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3026px;
+}
+.device_usb {
+width: 80px;
+height: 80px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3106px;
+}
+.device_table_bottom {
+width: 1000px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3186px;
+}
+.device_table_top {
+width: 1000px;
+height: 50px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3198px;
+}
+.device_table_bottom_690 {
+width: 690px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3248px;
+}
+.device_table_top_690 {
+width: 690px;
+height: 50px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3260px;
+}
+.home_desktophilink {
+width: 145px;
+height: 100px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3310px;
+}
+.home_routerhilink {
+width: 140px;
+height: 63px;
+margin-top: 75px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3410px;
+}
+.hilinklogin_image {
+width: 108px;
+height: 112px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3474px;
+}
+.hilinkic_device_upgrade {
+width: 64px;
+height: 64px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3586px;
+}
+.margin-left-55{
+margin-left: 55px !important;
+}
+.home_routerwingle {
+width: 140px;
+height: 63px;
+margin-top: 75px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3650px;
+}
+.winglelogin_image {
+width: 108px;
+height: 112px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3714px;
+}
+.wingleic_device_upgrade {
+width: 64px;
+height: 64px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon2.png?r=1640759658');
+background-position: left -3826px;
+}
+.device_offline_opacity {
+opacity: 0.2;
+}
+.device_huawei_logo, .device_honor_logo, .device_apple_logo {
+width: 34px;
+height: 34px;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+.device_huawei_logo {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -0px;
+}
+.device_honor_logo {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -35px;
+}
+.device_apple_logo {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -69px;
+}
+.device_huawei, .device_honor, .device_apple,
+.device_huawei_router, .device_huawei_router_huawei, .device_huawei_router_2, .device_huawei_router_4, .device_huawei_router_huawei_cyl,
+.device_huawei_router_honor, .device_huawei_router_huawei_minicylindroid, .device_huawei_wifirepeater,
+.device_huawei_plc, .device_huawei_ott, .device_huawei_smartwatch, .device_huawei_cpe, .device_huawei_cpe_1, .devicemanagement_main_device, .device_huawei_e5, .device_huawei_e5_1,
+.device_honor_router, .device_honor_router_honor, .device_honor_router_prism, .device_honor_flathonor, .device_honor_router_8, .device_honor_tvbox,
+.device_huawei_mobile, .device_huawei_laptop, .device_huawei_tablet, .device_huawei_wifiloudspeakerbox,
+.device_huawei_wifimusicplayer, .device_huawei_television,
+.device_honor_mobile, .device_honor_wifirepeater, .device_honor_tablet, .device_honor_ott, .device_honor_television  {
+width: 80px;
+height: 80px;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+.device_huawei {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -103px;
+}
+.device_huawei_smartwatch {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -183px;
+}
+.device_honor {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -263px;
+}
+.device_apple {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -343px;
+}
+.device_huawei_router, .device_huawei_router_huawei, .device_huawei_router_honor, .device_huawei_plc {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -423px;
+}
+.device_huawei_router_2 {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -503px;
+}
+.device_huawei_router_4 {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -583px;
+}
+.device_huawei_router_huawei_cyl {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -663px;
+}
+.device_huawei_router_huawei_minicylindroid {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -743px;
+}
+.device_huawei_wifirepeater, .device_honor_wifirepeater {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -823px;
+}
+.device_huawei_cpe {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -903px;
+}
+.device_huawei_cpe_1, .devicemanagement_main_device {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -983px;
+}
+.device_huawei_e5 {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1063px;
+}
+.device_huawei_e5_1 {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1143px;
+}
+.device_honor_router_honor, .device_honor_router{
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1223px;
+}
+.device_honor_router_prism {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1303px;
+}
+.device_honor_flathonor {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1383px;
+}
+.device_honor_router_8 {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1463px;
+}
+.device_honor_tvbox, .device_huawei_ott, .device_honor_ott {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1543px;
+}
+.device_huawei_mobile, .device_honor_mobile {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1623px;
+}
+.device_huawei_doorbellbutton {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1703px;
+}
+.device_huawei_laptop {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1783px;
+}
+.device_huawei_tablet, .device_honor_tablet {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1863px;
+}
+.device_huawei_wifiloudspeakerbox, .device_huawei_wifimusicplayer {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1943px;
+}
+.device_huawei_television, .device_honor_television {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2023px;
+}
+.device_apple_mobile, .device_apple_laptop, .device_apple_wifimusicplayer, .device_apple_smartwatch, .device_apple_tablet,.device_apple_desktop {
+width: 80px;
+height: 80px;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+.device_apple_mobile {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2103px;
+}
+.device_apple_laptop, .device_apple_desktop {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2183px;
+}
+.device_apple_wifimusicplayer {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -1943px;
+}
+.device_apple_smartwatch {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -183px;
+}
+.device_apple_tablet {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2263px;
+}
+.device_360, .device_1plus, .device_asus, .device_amazon, .device_blackberry, .device_coolpad, .device_dell,
+.device_dlink, .device_gee, .device_google, .device_hisense,
+.device_htc, .device_le, .device_lenovo, .device_lg, .device_meizu, .device_mercury, .device_microsoft,
+.device_moto, .device_netcore, .device_netgear, .device_nokia, .device_nubia,
+.device_oppo, .device_samsung, .device_skyworth, .device_sony, .device_tcl, .device_tenda,
+.device_tplink, .device_vivo, .device_xiaomi, .device_zte {
+width: 80px;
+height: 80px;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+.device_1plus {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2343px;
+}
+.device_360 {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2423px;
+}
+.device_amazon {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2504px;
+}
+.device_asus {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2584px;
+}
+.device_blackberry {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2664px;
+}
+.device_coolpad {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2744px;
+}
+.device_dell {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2824px;
+}
+.device_dlink {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2904px;
+}
+.device_gee {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -2984px;
+}
+.device_google {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3064px;
+}
+.device_hisense {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3144px;
+}
+.device_htc {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3224px;
+}
+.device_lenovo {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3304px;
+}
+.device_lg {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3384px;
+}
+.device_meizu {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3464px;
+}
+.device_mercury {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3544px;
+}
+.device_microsoft {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3624px;
+}
+.device_moto {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3704px;
+}
+.device_netcore {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3784px;
+}
+.device_netgear {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3864px;
+}
+.device_nokia {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -3944px;
+}
+.device_nubia {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4024px;
+}
+.device_oppo {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4104px;
+}
+.device_samsung {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4184px;
+}
+.device_skyworth {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4264px;
+}
+.device_sony {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4344px;
+}
+.device_tcl {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4424px;
+}
+.device_tenda {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4504px;
+}
+.device_tplink {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4584px;
+}
+.device_vivo {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4664px;
+}
+.device_xiaomi {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4744px;
+}
+.device_zte {
+background-image: url('../res/emui-icon3.png?r=1640759658');
+background-position: left -4824px;
+}
+.progress_bar_list {
+font-size: 14px;
+margin-top: 12px;
+}
+.list_shared {
+margin-top: 30px;
+}
+.list_shared_40 {
+margin-top: 40px;
+}
+.list_shared_55 {
+margin-top: 55px;
+}
+.sd_lable_tip, .sd_notice span {
+font-size: 14px;
+}
+.error_message, .error_message span {
+font-size: 14px;
+margin-left: 4px;
+text-align: left;
+margin-top: 8px;
+}
+.notice_message, .notice_message span {
+font-size: 14px;
+margin-left: 4px;
+text-align: left;
+margin-top: 8px;
+}
+.micro_sd {
+height: 36px;
+width: 678px;
+}
+.btn_new_disable {
+width: 22px;
+height: 22px;
+margin-right: 20px;
+margin-top: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -0px;
+}
+.btn_new:hover {
+width: 22px;
+height: 22px;
+margin-right: 20px;
+margin-top: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -22px;
+}
+.btn_delete:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -44px;
+}
+.btn_edit:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -66px;
+}
+.btn_sort_up:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -88px;
+}
+.btn_sort_down:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-right: 30px;
+margin-left: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -110px;
+}
+.home_icon_text_split {
+padding-left: 10px;
+font-size: 14px;
+}
+.my_account {
+font-size: 18px;
+border-right: 2px solid #656565;
+padding-right: 20px;
+}
+.ic_eye_open {
+width: 44px;
+height: 40px;
+cursor: pointer;
+margin-top: -4px;
+margin-left: -44px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -132px;
+}
+.ic_eye_close {
+width: 44px;
+height: 40px;
+cursor: pointer;
+margin-top: -4px;
+margin-left: -44px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -172px;
+}
+.ic_guide_eye_open {
+width: 44px;
+height: 40px;
+cursor: pointer;
+margin-top: 0px !important;
+margin-left: -44px;
+float:right;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -212px;
+}
+.ic_guide_eye_close {
+width: 44px;
+height: 40px;
+cursor: pointer;
+margin-top:0px !important;
+margin-left: -44px;
+float:right;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -252px;
+}
+.guide_eye {
+margin-top: 0px !important;
+float: right;
+}
+.wifi_link_settings {
+font-size: 14px;
+}
+.ic_low_left {
+width: 14px;
+height: 26px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -292px;
+}
+.ic_low_medium {
+height: 26px;
+font-size: 14px;
+line-height: 26px;
+line-height: 26px \9;
+background-color: rgb(251, 101, 34);
+}
+.ic_low_right {
+width: 14px;
+height: 26px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -318px;
+}
+.ic_medium_left {
+width: 14px;
+height: 26px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -344px;
+}
+.sms_add_person {
+width: 26px;
+height: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -370px;
+}
+.sms_add_person:hover {
+width: 26px;
+height: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -390px;
+}
+.sms_back_arrow {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2498px;
+}
+.sms_back_arrow:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2521px;
+}
+.sms_send_normal {
+width: 24px;
+height: 19px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -454px;
+}
+.sms_send_normal:hover {
+width: 24px;
+height: 19px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -473px;
+}
+.ic_medium_medium {
+height: 26px;
+line-height: 26px;
+line-height: 26px \9;
+font-size: 14px;
+background-color: rgb(254, 193, 49);
+}
+.ic_medium_right {
+width: 14px;
+height: 26px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -492px;
+}
+.ic_strong_left {
+width: 14px;
+height: 26px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -518px;
+}
+.ic_strong_medium {
+height: 26px;
+font-size: 14px;
+line-height: 26px;
+line-height: 26px \9;
+background-color: rgb(93, 185, 117);
+}
+.ic_strong_right {
+width: 14px;
+height: 26px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -544px;
+}
+.select_top {
+width: 332px;
+height: 17px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -570px;
+}
+.select_medium {
+width: 332px;
+height: 40px;
+cursor: pointer;
+line-height: 40px;
+text-indent: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -587px;
+}
+.select_medium_content {
+padding-left: 20px;
+text-indent: 0px;
+}
+.select_medium_pattern {
+width: 290px !important;
+}
+.select_bottom {
+width: 332px;
+height: 19px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -627px;
+}
+.select_medium:hover, .select_medium_selected {
+width: 332px;
+height: 40px;
+cursor: pointer;
+line-height: 40px;
+text-indent: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -646px;
+}
+.lang_select_list {
+clear: both;
+position: absolute;
+z-index: 12;
+font-size: 14px;
+margin-left: -20px;
+}
+.select_list {
+clear: both;
+position: absolute;
+z-index: 3;
+font-size: 14px;
+margin-left: -3px;
+}
+.lang_top_normal {
+width: 232px;
+height: 14px;
+line-height: 32px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -686px;
+}
+.lang_bottom_normal {
+width: 232px;
+height: 14px;
+line-height: 32px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -700px;
+}
+.lang_middle_normal {
+width: 232px;
+height: 32px;
+line-height: 32px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -714px;
+}
+.lang_middle_normal:hover, .lang_middle_selected {
+width: 232px;
+height: 32px;
+line-height: 32px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -746px;
+}
+.file_input_div {
+width: 475px;
+height: 32px;
+position: relative;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -778px;
+}
+.file_input_on {
+height: 32px;
+line-height: 32px;
+line-height: 32px \9;
+border: none;
+background-color: transparent;
+margin-left: 5px;
+text-align: center;
+font-size: 14px;
+}
+.file_input {
+position: absolute;
+top: 0;
+left: 0;
+height: 32px;
+border: none;
+background-color: transparent;
+opacity: 0;
+filter: alpha(opacity=0);
+cursor: pointer;
+width: 475px;
+}
+.upgrade_file_input {
+height: 29px;
+width: 380px;
+float: left;
+border: none;
+margin-left: 15px;
+background-color: transparent;
+}
+.ic_header_new {
+width: 8px;
+height: 8px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+position: absolute;
+right: 0;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -810px;
+}
+.short_input {
+width: 50px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+padding-top: 0;
+padding-bottom: 0;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -818px;
+}
+.short_input:focus, .short_input:hover, .short_input_selected {
+width: 50px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+padding-top: 0;
+padding-bottom: 0;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -851px;
+}
+.short_input_error {
+width: 50px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+padding-top: 0;
+padding-bottom: 0;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -884px;
+}
+.middle_input {
+width: 60px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -917px;
+}
+.middle_input:focus, .middle_input:hover, .middle_input_selected {
+width: 60px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -950px;
+}
+.middle_input_error {
+width: 60px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -983px;
+}
+.short_btn {
+width: 51px;
+height: 28px;
+overflow: hidden;
+cursor: pointer;
+overflow: hidden;
+border: none;
+outline: none;
+font-size: 12px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1016px;
+}
+.short_btn:hover {
+width: 51px;
+height: 28px;
+overflow: hidden;
+cursor: pointer;
+overflow: hidden;
+border: none;
+outline: none;
+font-size: 12px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1044px;
+}
+.ic_sms_msg_normal {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1072px;
+}
+.ic_sms_new_msg_flag {
+width: 20px;
+height: 20px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1094px;
+}
+.sms_resend {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1114px;
+}
+.sms_resend:hover {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1136px;
+}
+.sms_gray_normal {
+background-color: #EFEFEF;
+cursor: pointer;
+font-size: 14px;
+}
+.sms_gray_normal_selected {
+background-color: #E4E4E4;
+cursor: pointer;
+font-size: 14px;
+}
+.sms_blue_normal {
+cursor: pointer;
+font-size: 14px;
+}
+.sms_blue_normal_selected {
+background-color: #0063CB;
+cursor: pointer;
+font-size: 14px;
+}
+.sms_page_input {
+width: 24px;
+height: 24px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1158px;
+}
+.sms_page_input_selected, .sms_page_input:hover, .sms_page_input:focus {
+width: 24px;
+height: 24px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1182px;
+}
+.sms_item_alert_style {
+width:18px;
+height:16px;
+margin-top: 17px;
+float: left;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1206px;
+}
+.sms_item_info_style {
+width:18px;
+height:16px;
+margin-top: 17px;
+float: left;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1222px;
+}
+.ic_update_normal:hover {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1238px;
+}
+.ic_update_normal {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1261px;
+}
+.ic_signout {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1284px;
+}
+.ic_signout:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1306px;
+}
+.ic_reboot {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2543px;
+}
+.ic_reboot:hover {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1350px;
+}
+.sd_left_crumbs {
+width: 10px;
+height: 18px;
+margin-top: 9px;
+margin-left: 5px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1372px;
+}
+.sd_right_crumbs {
+width: 10px;
+height: 18px;
+margin-top: 9px;
+margin-right: 5px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1390px;
+}
+.common_win_top {
+width: 508px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1408px;
+}
+.common_win_bottom {
+width: 508px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1420px;
+}
+.login_pop_top {
+width: 630px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1432px;
+}
+.login_pop_bottom {
+width: 630px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1444px;
+}
+.btn_disabled {
+cursor: default;
+}
+.guide-eths-info {
+clear: both;
+padding-top: 5px;
+font-size: 14px;
+margin-left: 336px;
+text-align: left;
+}
+.guide_dhcp_error_info {
+padding-left: 330px;
+padding-top: 30px;
+}
+.guide_dhcp_error_label {
+margin-left: 28px;
+padding-right: 10px;
+}
+.guide_checkbox_text {
+margin-left: 10px;
+}
+.guide_table_bottom {
+width: 1000px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1456px;
+}
+.guide_table_top {
+width: 1000px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1468px;
+}
+.guide_finish {
+width: 48px;
+height: 48px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1480px;
+}
+.eth_no_connected {
+width: 20px;
+height: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1528px;
+}
+.sim_no_connected {
+width: 20px;
+height: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1548px;
+}
+.menu_arrow_open {
+width: 18px;
+height: 18px;
+margin-right: 20px;
+margin-top: 3px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1568px;
+}
+.menu_arrow_close {
+width: 18px;
+height: 18px;
+margin-right: 20px;
+margin-top: 3px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1586px;
+}
+.guide_uncabled {
+width: 460px;
+height: 153px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon1.png?r=1640759658');
+background-position: left -0px;
+}
+.guide_nosimcard {
+width: 460px;
+height: 153px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon1.png?r=1640759658');
+background-position: left -153px;
+}
+.guide_uncabled_nosimcard {
+width: 460px;
+height: 153px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon1.png?r=1640759658');
+background-position: left -306px;
+}
+.guide_only_sim {
+width: 460px;
+height: 153px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon1.png?r=1640759658');
+background-position: left -459px;
+}
+.only_support_sim_but_has_sim_img {
+width: 460px;
+height: 153px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon1.png?r=1640759658');
+background-position: left -612px;
+}
+.guide_uncabled_captive {
+width: 460px;
+height: 153px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon1.png?r=1640759658');
+background-position: left -765px;
+}
+.guide_nosimcard_captive {
+width: 460px;
+height: 153px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon1.png?r=1640759658');
+background-position: left -918px;
+}
+.guide_cabled_simcard_captive {
+width: 460px;
+height: 153px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon1.png?r=1640759658');
+background-position: left -1071px;
+}
+.input_password {
+width: 280px;
+}
+.pwd_submit_white_content {
+display: none;
+position: absolute;
+top: 65%;
+left: 50%;
+margin-left: -250px;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+}
+.out_win_content_modifypwd {
+display: none;
+position: fixed;
+top: 50%;
+left: 40%;
+margin-left: auto;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+border-radius: 12px;
+}
+.page_description_text {
+line-height: 150%;
+font-size: 14px;
+padding-top: 10px;
+}
+.onePage_description_text {
+line-height: 150%;
+font-size: 14px;
+}
+.page_help {
+font-size: 16px;
+padding-top: 16px;
+cursor: pointer;
+}
+.page_help_title {
+cursor: pointer;
+float: left;
+margin-left: 8px;
+height: 20px;
+line-height: 20px;
+}
+.page_help_info {
+clear: both;
+line-height: 150%;
+font-size: 14px;
+padding-top: 10px;
+}
+.page_help_info > div {
+clear: both;
+}
+.ic_help {
+width: 18px;
+height: 18px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1604px;
+}
+.page_scenes_info_text {
+line-height: 160%;
+font-size: 16px;
+}
+.page_prompt_info {
+width: 380px;
+margin-left: 135px;
+margin-top: 80px;
+}
+.sms_contract_item {
+height: 20px;
+font-size: 14px;
+line-height: 20px;
+line-height: 20px \9;
+background-color: #CEE6FD;
+}
+.table_list_title {
+width: 635px;
+overflow: hidden;
+font-size: 18px;
+text-align: center;
+margin-top: 20px;
+float: left;
+}
+.table_title_bg {
+width: 679px;
+height: 35px;
+background-color: #F3F3F3;
+}
+.table_titles {
+float: left;
+font-size: 14px;
+height: 28px;
+text-align: center;
+padding-top: 7px;
+}
+.cbs_title {
+width: 677px;
+height: 36px;
+background-color: #F3F3F3;
+}
+.cbs_list_title {
+width: 595px;
+overflow: hidden;
+font-size: 18px;
+margin-top: 20px;
+float: left;
+margin-left: 42px;
+}
+.cbs_titles {
+float: left;
+font-size: 14px;
+height: 26px;
+text-align: center;
+padding-top: 10px;
+}
+.cbs_contents {
+width: 679px;
+}
+.cbs_btn_delete {
+margin-top: 14px;
+margin-left: 47px !important;
+}
+.table_line {
+width: 679px;
+height: 50px;
+}
+.table_row {
+float: left;
+font-size: 14px;
+padding-top: 17px;
+height: 33px;
+text-align: center;
+}
+.table_row_ssid {
+float: left;
+font-size: 14px;
+height: 50px;
+line-height: 48px;
+text-align: center;
+}
+.table_row_icon {
+float: left;
+padding-top: 12px;
+height: 38px;
+text-align: center;
+}
+.ddns_add_title {
+border-bottom: #E9E9E9 solid 1px;
+font-size: 16px;
+text-align: center;
+line-height: 65px;
+}
+.ddns_add {
+padding-top: 30px;
+text-align: left;
+}
+.ddns_add_label {
+font-size: 14px;
+width: 170px;
+margin-top: 8px;
+margin-right: 10px;
+margin-left: 80px;
+float: left;
+}
+.ddns_add_control {
+float: left;
+font-size: 14px;
+width: 345px;
+}
+.ddns_onoff_switch {
+margin-left: 27px;
+}
+.toast_left {
+width: 22px;
+height: 44px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1666px;
+}
+.toast_right {
+width: 22px;
+height: 44px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1622px;
+}
+.toast_location {
+z-index: 20;
+position: absolute;
+bottom: 270px;
+left: 50%;
+}
+.hilink_table_top {
+width: 508px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1408px;
+}
+.hilink_table_bottom {
+width: 508px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1420px;
+}
+.ic_success {
+width: 20px;
+height: 20px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1710px;
+}
+.upg_btn_hover_left {
+width: 15px;
+height: 30px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1790px;
+}
+.upg_btn_hover_middle {
+width: 15px;
+height: 30px;
+background: transparent;;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1760px;
+}
+.upg_btn_hover_right {
+width: 15px;
+height: 30px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1730px;
+}
+.upg_btn_normal_left {
+width: 15px;
+height: 30px;
+background: transparent;;
+background-repeat: no-repeat;;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1880px;
+}
+.upg_btn_normal_middle {
+width: 15px;
+height: 30px;
+background: transparent;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1850px;
+}
+.upg_btn_normal_right {
+width: 15px;
+height: 30px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1820px;
+}
+.ic_device_upgrade {
+width: 64px;
+height: 64px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1910px;
+}
+.failed_notice_arrow {
+width: 17px;
+height: 9px;
+background: transparent;
+background-repeat: no-repeat;
+position: absolute;
+right: 15px;
+top: -9px;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1974px;
+}
+.failed_notice_middle {
+height: 30px;
+line-height: 30px;
+line-height: 30px \9;
+background-color: #FCE7E5;
+}
+.ic_upgrade_on_check_press .box, .ic_upgrade_off_check .box, .ic_upgrade_success .box, .ic_upgrade_no_new_version .box, .ic_upgrade_failed .box {
+width: auto;
+height: 30px;
+position: absolute;
+right: 35px;
+margin-top: 30px;
+font-size: 14px;
+line-height: 30px;
+line-height: 30px \9;
+z-index: 5;
+}
+div.ic_upgrade_on_check_press:hover div.box, div.ic_upgrade_off_check:hover div.box, div.ic_upgrade_success:hover div.box, div.ic_upgrade_no_new_version:hover div.box, div.ic_upgrade_failed:hover div.box {
+display: block;
+}
+.failed_notice_left {
+width: 15px;
+height: 30px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -1983px;
+}
+.failed_notice_right {
+width: 15px;
+height: 30px;
+background: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2013px;
+}
+.message_item_split {
+padding-top: 30px;
+}
+.message_title_new {
+margin-left: 30px;
+margin-top: 33px;
+}
+.padding_left_28px {
+padding-left: 28px;
+}
+.margin_left_39px {
+margin-left: 39px;
+}
+.hilinkdown_left {
+padding-top: 8px;
+float: left;
+margin-left: 20px;
+width: 440px;
+text-align: left;
+}
+.btn_cancel {
+cursor: pointer;
+width: 22px;
+height: 22px;
+margin-top: 8px;
+float: right;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2043px;
+}
+.btn_cancel:hover {
+cursor: pointer;
+width: 22px;
+height: 22px;
+margin-top: 8px;
+float: right;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2065px;
+}
+.hilinkapp_download_img {
+padding-top: 16px;
+padding-bottom: 16px;
+width: 160px;
+height: 160px;
+margin: 0 auto;
+}
+.hilinkapp_string {
+font-size: 14px;
+text-align: center;
+width: 200px;
+display: block;
+}
+.hilinkapp_btn {
+padding-top: 16px;
+padding-bottom: 8px;
+}
+.hilinkapp_download_box {
+width: 508px;
+display: none;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -200px;
+margin-left: -250px;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+}
+.commend_all {
+width: 1420px;
+margin: 0 auto;
+}
+.commend_welcome {
+text-align: center;
+font-size: 30px;
+font-family: FZYOUH_508R--GB1-4;
+}
+.img_hilinkapp_chinese {
+width: 840px;
+height: 1065px;
+background-repeat: no-repeat;
+background-image: url('../res/img_hilinkapp_chinese.png?r=1640759658');
+}
+.img_hilinkapp_english {
+width: 840px;
+height: 1065px;
+background-repeat: no-repeat;
+background-image: url('../res/img_hilinkapp_english.png?r=1640759658');
+}
+.img_smarthome_chinese{
+width: 840px;
+height: 1065px;
+background-repeat: no-repeat;
+background-image: url('../res/img_smarthome_chinese.png?r=1640759658');
+}
+.img_smarthome_english{
+width: 840px;
+height: 1065px;
+background-repeat: no-repeat;
+background-image: url('../res/img_smarthome_english.png?r=1640759658');
+}
+.commend_btn_hilink_app {
+width: 960px;
+height: 80px;
+line-height: 80px;
+font-size: 35px;
+border-radius: 42px;
+border: 1px solid #eeeeee;
+background: #F7F7F7;
+cursor: pointer;
+}
+.commend_enter {
+font-size: 30px;
+line-height: 40px;
+font-family: FZYOUH_508R--GB1-4;
+}
+.commend_web_page {
+font-size: 30px;
+line-height: 40px;
+font-family: FZYOUH_508R--GB1-4;
+}
+.wps_connect_way_title {
+font-size: 16px;
+}
+.three_way_instruction {
+font-size: 14px;
+}
+.pb_header {
+height: 60px;
+padding-bottom: 1px;
+width: 690px;
+}
+.pb_header_search {
+float: left;
+width: 280px;
+height: 100%;
+border: 1px solid #eeeeee;
+}
+.pb_header_control {
+width: 365px;
+float: left;
+margin-left: 40px;
+height: 100%;
+border-bottom: 1px solid #eeeeee;
+}
+.pb_header_icon {
+margin-top: 20px;
+}
+.pb_content {
+width: 690px;
+min-height: 500px;
+float: left;
+}
+.pb_list {
+float: left;
+width: 280px;
+margin-bottom: 60px;
+border: 1px solid #eeeeee;
+border-top: none;
+}
+.pb_details {
+float: left;
+width: 365px;
+margin-left: 40px;
+height: 100%;
+}
+.pb_list_control {
+border-left: 1px solid #eeeeee;
+border-right: 1px solid #eeeeee;
+}
+.pb_list_group {
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+padding-left: 5px;
+clear: both;
+}
+.pb_list_contact {
+border-bottom: 1px solid #eeeeee;
+padding-left: 5px;
+}
+.pb_img_search {
+width: 240px;
+height: 32px;
+margin-top: 14px;
+margin-left: 20px;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2087px;
+}
+.pb_img_search_selected, .pb_img_search:hover, .pb_img_search:focus {
+width: 240px;
+height: 32px;
+margin-top: 14px;
+margin-left: 20px;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2120px;
+}
+.pb_input_search {
+margin-left: 15px;
+}
+.pb_btn_more {
+margin-right: 20px;
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2153px;
+}
+.pb_btn_more:hover {
+margin-right: 20px;
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2175px;
+}
+.pb_btn_import {
+margin-right: 30px;
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2197px;
+}
+.pb_btn_import:hover {
+margin-right: 30px;
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2219px;
+}
+.pb_contact_name {
+width: 170px;
+word-wrap: break-word;
+float: left;
+}
+.pb_add_menu_bg {
+width: 156px;
+height: 102px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2241px;
+}
+.pb_btn_message {
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+margin-right: 30px;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2343px;
+}
+.samba_btn_edit {
+margin-left:10px;
+margin-top: 16%;
+}
+.samba_btn_delete {
+margin-right:10px !important;
+float: right;
+margin-top: -22px;
+}
+.sdCard_file_input_div {
+width: 340px;
+height: 32px;
+position: relative;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2566px;
+}
+.td_upload_file {
+text-align: left;
+}
+.file_path_wrapper {
+width: 545px;
+text-align: left;
+padding: 0px 5px 5px 25px;
+}
+#file_path {
+width:350px;
+word-wrap: break-word;
+word-break: break-all;
+}
+#file_path pre {
+margin-right:10px;
+white-space:pre-wrap;
+white-space:-moz-pre-wrap;
+white-space:-o-pre-wrap;
+}
+.file_tree_wrapper {
+width: 490px;
+padding: 0 10px;
+float: right;
+}
+.file_tree_div {
+width: 498px;
+height: 193px;
+list-style: none;
+overflow: scroll;
+padding: 3px 0px 0px 0px;
+margin: 0;
+border-left: 1px solid #E9E9E9;
+border-right: 1px solid #E9E9E9;
+}
+.file_tree_div ul {
+list-style: none;
+padding: 0;
+margin: 0;
+_margin-left: 3px;
+}
+.file_tree_div .hitarea,.file_tree_div .hitarea_dlna {
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2398px;
+background-repeat: no-repeat;
+height: 16px;
+width: 16px;
+margin: 5px 0px 0px -24px;
+float: left;
+cursor: pointer;
+}
+.share_out_win_content {
+width: 850px;
+}
+.share_table_top {
+width: 850px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2414px;
+}
+.share_table_middle {
+width: 850px;
+height: 47px;
+overflow: hidden;
+border-bottom: #E9E9E9 solid 1px;
+font-size: 16px;
+text-align:center;
+line-height: 36px;
+}
+.share_table_bottom {
+width: 850px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2426px;
+}
+.dlna_win_top {
+width: 500px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2438px;
+}
+.dlna_win_bottom {
+width: 500px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2450px;
+}
+.file_tree_div li {
+margin: 0;
+padding: 0px 0px 0px 44px;
+width: auto;
+}
+.folder_path_line {
+width: auto;
+height: 25px;
+padding: 5px 0px 0px 0px;
+margin-bottom: 10px;
+display: block;
+}
+.folder_name pre {
+margin-top: 0px;
+padding-left: 5px;
+overflow: hidden;
+}
+a .folder_name {
+display: inline-block;
+width: auto;
+height: 16px;
+background-color: #E0E0E0;
+}
+.folder_name {
+width: auto;
+}
+#dlna_file_path_wrapper .sd_select_folder,#sambaFilePath .sd_select_folder {
+float: left;
+}
+.file_tree_div li a{
+padding-right: 0px;
+display: block;
+width: auto;
+height: 20px;
+line-height: 20px;
+}
+.file_tree_div li a div {
+width: 20px;
+height: 20px;
+float: left;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2462px;
+}
+.file_tree_div li span.folder_hover.folder_path_line {
+background-color: #E0E0E0;
+}
+.file_tree_div li span.focusfolder.folder_path_line {
+background-color: #f2f2f2;
+}
+.file_tree_div .collapsable-hitarea div {
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2482px;
+background-repeat: no-repeat;
+}
+.file_tree_div div.noSubFolder_last, .file_tree_div div.noSubFolder {
+float: left;
+height: 16px;
+margin-left: -16px;
+width: 16px;
+}
+.file_tree_div div.noSubFolder_last {
+height: 5px;
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2482px;
+background-repeat: no-repeat;
+}
+.file_tree_div div.lastCollapsable-hitarea {
+background-image: url('../res/emui-icon4.png?r=1640759658');
+background-position: left -2482px;
+background-repeat: no-repeat;
+}
+.padding-right-10 {
+padding-right: 10px;
+}
+.childprotect_table_text {
+text-align: left;
+}
+.urlfilter_filter_status {
+margin-right: auto;
+margin-left: auto;
+}
+.specialapp_btn_delete_right {
+margin-right: 1px !important;
+}
+.configuration_recover {
+padding-left: 30px;
+padding-right: 30px;
+padding-bottom: 40px;
+}
+.configuration_recover_concel {
+margin-right: 6px !important;
+}
+.phonebook_addcontact {
+margin-right: 40px !important;
+}
+.dhcp_lease_right {
+padding-right: 15px !important;
+}
+.dhcp_devicename_right {
+padding-right: 45px !important;
+}
+.child_week_right {
+padding-right: 5px !important;
+}
+.antenna_apply_btn {
+padding-right: 0px !important;
+}
+.dhcp_lease_left {
+padding-left: 15px !important;
+}
+.login_error_left {
+padding-left: 200px !important;
+}
+.login_pop_error_left {
+padding-left: 165px !important;
+padding-right: 165px !important;
+}
+.mobilesearch_radio_btn_left {
+padding-left: 60px !important;
+}
+.home_status_topo_left {
+padding-left: 65px !important;
+}
+.sms_page_left {
+padding-left: 8px !important;
+}
+.dhcp_descript_div_left {
+padding-left: 330px !important;
+}
+.ic_upgrade_failed_left {
+padding-left: 28px !important;
+}
+.public_lang_left {
+margin-left: 32px !important;
+}
+.public_reboot_left {
+margin-left: 18px !important;
+}
+.public_item_left {
+margin-left: 5px !important;
+}
+.upgrade_filed {
+margin-left: 40px !important;
+margin-top: 45px !important;
+}
+.ussd_description {
+padding-top: 10px;
+padding-bottom: 20px;
+font-size: 14px;
+border-bottom: 1px solid #F3F3F3;
+}
+.ussd_infoList {
+overflow-x: hidden;
+overflow-y: scroll;
+height: 216px;
+border: 1px solid #F3F3F3;
+border-radius: 5px;
+margin-top: 50px;
+}
+.ussd_info_result {
+text-indent: 15px;
+width: 340px;
+margin-top: 20px;
+}
+.ussd_general_result_send {
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.ussd_general_result_receive {
+padding-bottom: 10px;
+padding-top: 10px;
+}
+.ussd_text_long {
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+#activate_select,#ussd_general_select {
+width:300px;
+padding-right: 40px;
+}
+#ussd_general #ussd_general_select:hover{
+height: 30px;
+}
+.ussd_general_iphone {
+height:26px !important;
+line-height: 24px;
+}
+.ussd_general_iphone:hover{
+height: 26px !important;
+line-height: 24px;
+}
+.ussd_select_list {
+padding-right: 30px;
+width:298px;
+}
+.ussd_select_list:hover {
+padding-right: 30px;
+width:298px;
+}
+.childprotect_device_slect {
+padding-left: 2px;
+}
+.padding_left_30 {
+padding-left: 30px;
+}
+.padding_right_30 {
+padding-right: 30px;
+}
+.padding_right_42 {
+padding-right: 42px;
+}
+.margin_right_10 {
+margin-right: 10px;
+}
+.margin_right_35 {
+margin-right: 35px;
+}
+.margin_bottom_box1 {
+margin-bottom: -1px;
+}
+.margin_bottom_box2 {
+margin-top: -1px;
+margin-bottom: -1px;
+}
+.btn_small_short{
+display: inline-block;
+text-align: center;
+margin-right: 12px;
+width: 150px;
+height: 44px;
+line-height: 44px;
+overflow: hidden;
+cursor: pointer;
+border: none;
+outline: none;
+font-size: 14px;
+background-repeat: no-repeat;
+background-image: url('../res/btn_normal.png?r=1640759658');
+}
+.btn_small_short:hover{
+width: 150px;
+height: 44px;
+line-height: 44px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/btn_hover.png?r=1640759658');
+}
+.moreBtn{
+padding: 50px 0 0 0;
+float: right;
+}
+.systemlogTable>div:first-child {
+line-height: 95px;
+}
+.systemlogTable>div:first-child +div {
+line-height: 95px;
+}
+.systemlogTable>div:first-child +div +div{
+line-height: 95px;
+}
+.systemlogTable>div:first-child +div +div +div {
+display: flex;
+align-items: center;
+justify-content: center;
+border-right: 1px solid #E9E9E9;
+}
+.index_boder{
+border-left:1px solid #CCCCCC;
+}
+.pb_btn_message_disable {
+width: 22px;
+height: 22px;
+margin-right: 30px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -0px;
+}
+.pb_btn_message:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-right: 30px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -22px;
+}
+.pb_btn_new_contact {
+margin-right: 30px;
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -44px;
+}
+.pb_btn_new_contact_disable {
+margin-right: 30px;
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -66px;
+}
+.pb_btn_new_contact:hover {
+margin-right: 30px;
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -88px;
+}
+.pb_btn_complete_contact {
+margin-right: 30px;
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -110px;
+}
+.pb_btn_complete_contact:hover {
+margin-right: 30px;
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -132px;
+}
+.pb_btn_cancel_contact {
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -154px;
+}
+.pb_btn_cancel_contact:hover {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -176px;
+}
+.pb_contacts_nav {
+clear: both;
+height: 32px;
+background-color: #E6E6E6;
+}
+.pb_nav_label {
+padding-top: 5px;
+padding-left: 20px;
+height: 32px;
+font-size: 14px;
+}
+.pb_detail_name_line {
+float: left;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+.pb_detail_name {
+float: left;
+height: 28px;
+width: 250px;
+margin-left: 25px;
+font-size: 18px;
+}
+.pb_detail_name_title {
+float: left;
+height: 28px;
+width: 88px;
+font-size: 16px;
+}
+.pb_detail_title {
+float: left;
+height: 28px;
+width: 88px;
+margin-top: 10px;
+margin-bottom: 14px;
+font-size: 16px;
+}
+.pb_detail_common_content {
+float: left;
+height: 28px;
+width: 250px;
+font-size: 16px;
+margin-top: 10px;
+padding-bottom: 14px;
+margin-left: 25px;
+border-bottom: 1px solid #eeeeee;
+}
+.pb_detail_num {
+float: left;
+width: 218px;
+}
+.pb_edit_title {
+float: left;
+width: 96px;
+height: 28px;
+margin-top: 4px;
+font-size: 14px;
+}
+.pb_edit_line {
+height: 32px;
+margin-bottom: 30px;
+}
+.input_pb_selected, .input_pb:focus, .input_pb:hover {
+width: 252px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -198px;
+}
+.input_pb {
+width: 252px;
+height: 32px;
+line-height: 32px \9;
+overflow: hidden;
+text-indent: 15px;
+*padding-left: 15px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -230px;
+}
+.pb_win_title {
+font-size: 16px;
+text-align: center;
+line-height: 65px;
+}
+.pb_content_line {
+padding-top: 20px;
+padding-left: 20px;
+text-align: left;
+font-size: 14px;
+}
+.pb_group_label {
+height: 36px;
+clear: both;
+font-size: 14px;
+padding-left: 30px;
+padding-top: 10px;
+}
+.pb_group_label:hover {
+height: 36px;
+clear: both;
+font-size: 14px;
+cursor: pointer;
+padding-left: 30px;
+padding-top: 10px;
+}
+#pb_no_choose {
+width: 365px;
+padding-top: 200px;
+text-align: center;
+font-size: 18px;
+}
+.pb_contacts {
+height: 520px;
+}
+.pb_add_group_label {
+width: 280px;
+height: 46px;
+padding-top: 14px;
+border-bottom: 1px solid #eeeeee;
+}
+.pb_add_group_img {
+width: 240px;
+height: 32px;
+margin-left: 20px;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -263px;
+}
+.pb_add_group_img_selected, .pb_add_group_img:hover, .pb_add_group_img:focus {
+width: 240px;
+height: 32px;
+margin-left: 20px;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -296px;
+}
+.pb_contact {
+width: 250px;
+min-height: 32px;
+padding-top: 14px;
+padding-left: 50px;
+}
+.pb_contact:hover {
+width: 250px;
+min-height: 32px;
+padding-top: 14px;
+padding-left: 50px;
+cursor: pointer;
+}
+.pb_letter_group {
+width: 250px;
+height: 24px;
+padding-top: 8px;
+padding-left: 30px;
+background-color: #f1f1f1;
+border-bottom: 1px solid #eeeeee;
+}
+.pb_add_menu {
+height: 89px;
+width: 158px;
+position: relative;
+z-index: 200;
+top: 15px;
+left: -37px;
+}
+.pb_add_menu_top {
+width: 158px;
+height: 30px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -328px;
+}
+.pb_add_menu_bottom {
+width: 158px;
+height: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -358px;
+}
+.pb_add_menu_middle {
+width: 158px;
+height: 80px;
+background-repeat: repeat-y;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -378px;
+}
+.pb_add_menu_item {
+height: 20px;
+width: 110px;
+margin-left: 25px;
+margin-right: 16px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.pb_letter_list {
+position: relative;
+text-align: center;
+right: -244px;
+top: 10px;
+width: 16px;
+height: 490px;
+z-index: 200;
+}
+.pb_letter {
+width: 14px;
+height: 14px;
+margin-bottom: 4px;
+cursor: pointer;
+}
+.pb_sms_content_input {
+width: 343px;
+height: 100px;
+overflow: hidden;
+background-color: transparent;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -488px;
+}
+.pb_sms_send_content_textarea {
+font-size: 14px;
+line-height: 140%;
+width: 315px;
+height: 85px;
+overflow: hidden;
+resize: none;
+margin-left: 10px;
+margin: 0 auto;
+padding: 0 10px;
+outline: 0;
+word-wrap: break-word;
+}
+.pb_sms_input_part {
+padding-left: 20px;
+padding-right: 20px;
+width: 343px;
+padding-bottom: 20px;
+border: 1px solid #E9E9E9;
+border-top: none;
+}
+.pb_floating_letter {
+text-align: center;
+font-size: 25px;
+height: 62px;
+width: 62px;
+vertical-align: middle;
+line-height: 60px;
+left: 160px;
+top: -490px;
+cursor: default;
+position: relative;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -500px;
+}
+.pb_btn_delete {
+margin-right: 0px !important;
+}
+.certupload_file_input_div {
+width: 340px;
+height: 32px;
+position: relative;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -562px;
+}
+.cert_file_input {
+position: absolute;
+top: 0;
+left: 0;
+height: 32px;
+border: none;
+background-color: transparent;
+opacity: 0;
+filter: alpha(opacity=0);
+cursor: pointer;
+width: 340px;
+}
+.cert_file_input_on {
+height: 32px;
+line-height: 32px;
+line-height: 32px \9;
+float: right;
+border: none;
+background-color: transparent;
+margin-right: 5px;
+text-align: center;
+font-size: 14px;
+}
+.autorun_all_content {
+margin: 0 auto;
+width: 540px;
+}
+.autorun_string {
+padding-bottom: 16px;
+border-bottom: #E9E9E9 solid 1px;
+}
+.auto_img_center {
+width: 64px;
+height: 64px;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -596px;
+}
+.control_show_middle {
+line-height: 32px;
+line-height: 32px \9;
+text-indent: 20px;
+}
+.statistic_input_text {
+margin-left: 15px;
+}
+.statistic_process_title {
+line-height: 36px;
+line-height: 36px \9;
+}
+.statistic_input_select_split {
+margin-left: 10px;
+}
+.statistic_input_normal {
+width: 92px;
+height: 32px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -660px;
+}
+.statistic_input_normal:focus, .statistic_input_normal:hover, .statistic_input_selected {
+width: 92px;
+height: 32px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -692px;
+}
+.statistic_input_error {
+width: 92px;
+height: 32px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -725px;
+}
+.statistic_select_bottom {
+width: 92px;
+height: 32px;
+margin-top: -1px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -757px;
+}
+.statistic_select_bottom:hover, .statistic_select_bottom_selected {
+width: 92px;
+height: 32px;
+margin-top: -1px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -789px;
+}
+.statistic_select_statistics {
+width: 92px;
+height: 32px;
+line-height: 32px;
+line-height: 32px \9;
+padding-left: 15px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3577px;
+}
+.statistic_select_statistics:hover {
+width: 92px;
+height: 32px;
+line-height: 32px;
+line-height: 32px \9;
+padding-left: 15px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3609px;
+}
+.statistic_select_top {
+width: 92px;
+height: 32px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -885px;
+}
+.statistic_select_top:hover, .statistic_select_top_selected {
+width: 92px;
+height: 32px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -917px;
+}
+.statistic_select_middle {
+width: 92px;
+height: 32px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -949px;
+}
+.statistic_select_middle:hover, .statistic_select_middle_selected {
+width: 92px;
+height: 32px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -981px;
+}
+.statistic_select_medium {
+width: 92px;
+height: 32px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1013px;
+}
+.statistic_select_medium:hover, .statistic_select_medium_selected {
+width: 92px;
+height: 32px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1045px;
+}
+.statistic_date_select_back {
+width: 90px;
+height: 224px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1077px;
+}
+.statistic_date_select_roam_back {
+width: 90px;
+height: 288px;
+cursor: pointer;
+background-color: transparent;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1301px;
+}
+.ip_filter_tb {
+height: 50px;
+border-left: #E9E9E9 solid 1px;
+border-bottom: #E9E9E9 solid 1px;
+text-align: center;
+padding: 0 10px;
+}
+.ip_filter_tb_max {
+height: 96px;
+border-left: #E9E9E9 solid 1px;
+border-bottom: #E9E9E9 solid 1px;
+text-align: center;
+padding: 0 10px;
+}
+.special_app_tb_max {
+height: 240px;
+border-left: #E9E9E9 solid 1px;
+border-bottom: #E9E9E9 solid 1px;
+text-align: center;
+padding: 0 10px;
+}
+.ip_filter_tb_head {
+height: 36px;
+border-left: #E9E9E9 solid 1px;
+border-bottom: #E9E9E9 solid 1px;
+background-color: #F3F3F3;
+text-align: center;
+padding: 0 10px;
+}
+.div_vertical_middle_box{
+display: table;
+}
+.div_vertical_middle {
+display: table-cell;
+vertical-align: middle;
+}
+.mac_filter_devicename_list_middle {
+padding-top: 8px;
+height: 42px;
+}
+.mac_filter_devicename_list_max {
+padding-top: 8px;
+height: 58px;
+}
+.mac_table_line_height {
+height: 66px;
+}
+.mac_filter_other_list {
+height: 51px;
+padding-top: 15px;
+}
+.macfilter_forbidden {
+height: 300px;
+text-align: center;
+line-height: 300px;
+font-size: 18px;
+text-decoration: underline;
+}
+.macfilter-control-label-win {
+font-size: 14px;
+width: 170px;
+margin-top: 8px;
+margin-left: 80px;
+float: left;
+}
+.eths-status {
+width: 690px;
+margin-bottom: 50px;
+border-bottom: #F3F3F3 solid 1px;
+}
+.eths-status-header {
+padding-bottom: 10px;
+}
+.eths-status-title {
+overflow: hidden;
+font-size: 16px;
+}
+.eths-status-content {
+overflow: hidden;
+font-size: 14px;
+padding-bottom: 14px;
+}
+.eth-sub-section {
+margin-top: 50px;
+}
+.eths-info {
+clear: both;
+margin-left: 176px;
+padding-top: 5px;
+font-size: 14px;
+}
+.eths-note {
+clear: both;
+margin-left: 176px;
+font-size: 14px;
+}
+.eths-subtitle-info {
+clear: both;
+font-size: 14px;
+}
+.subtitle {
+width: 690px;
+overflow: hidden;
+font-size: 18px;
+padding-bottom: 20px;
+border-bottom: #E9E9E9 solid 1px;
+}
+.mac-subtitle {
+width: 690px;
+overflow: hidden;
+font-size: 18px;
+border-bottom: #E9E9E9 solid 1px;
+}
+.wireless_relay_unavailable_icon {
+width: 64px;
+height: 64px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+margin-left: 307px;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1589px;
+}
+.wireless_relay_locked_signal_icon0 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1653px;
+}
+.wireless_relay_locked_signal_icon1 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1685px;
+}
+.wireless_relay_locked_signal_icon2 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1717px;
+}
+.wireless_relay_locked_signal_icon3 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1749px;
+}
+.wireless_relay_locked_signal_icon4 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1781px;
+}
+.wireless_relay_open_signal_icon0 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1813px;
+}
+.wireless_relay_open_signal_icon1 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1845px;
+}
+.wireless_relay_open_signal_icon2 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1877px;
+}
+.wireless_relay_open_signal_icon3 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1909px;
+}
+.wireless_relay_open_signal_icon4 {
+width: 32px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1941px;
+}
+.wireless_add_other {
+margin-top: 48px;
+margin-left: 169px;
+}
+.necessary_mark {
+float: left;
+margin-left: 10px;
+margin-top: 10px;
+font-size: 14px;
+}
+.station_wps_description {
+width: 690px;
+overflow: hidden;
+font-size: 14px;
+padding-top: 30px;
+}
+.advance_config {
+width: 690px;
+font-size: 16px;
+margin-top: 60px;
+border-bottom: #E9E9E9 solid 1px;
+}
+.systemsettings_put_away {
+width: 16px;
+height: 13px;
+margin-top: 3px;
+display: inline-block;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1973px;
+}
+.systemsettings_unfolded {
+width: 16px;
+height: 13px;
+margin-top: 3px;
+display: inline-block;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -1989px;
+}
+.antenna_pic {
+display: inline-block;
+float: left;
+position: relative;
+width: 70px;
+height: 180px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2005px;
+}
+.antenna_radio_on_one {
+position: absolute;
+left: 25px;
+top: 25px;
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2186px;
+}
+.antenna_radio_off_one {
+position: absolute;
+left: 25px;
+top: 25px;
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2207px;
+}
+.antenna_radio_on_two, .antenna_horizontal_radio_on_two {
+position: absolute;
+bottom: 25px;
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2186px;
+}
+.antenna_radio_off_two, .antenna_horizontal_radio_off_two {
+position: absolute;
+bottom: 25px;
+width: 20px;
+height: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2207px;
+}
+.antenna_radio_on_two, .antenna_radio_off_two {
+left: 25px;
+}
+.antenna_horizontal_radio_on_two, .antenna_horizontal_radio_off_two {
+right: 25px;
+}
+.antenna_arrow_right {
+display: inline-block;
+position: relative;
+}
+.antenna_arrow_top {
+position: absolute;
+left: 20px;
+top: 10px;
+width: 24px;
+height: 24px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2228px;
+}
+.antenna_arrow_bottom {
+position: absolute;
+left: 20px;
+top: 120px;
+width: 24px;
+height: 24px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2228px;
+}
+.antenna_one {
+position: absolute;
+font-size: 14px;
+width: 50px;
+top: 12px;
+left: 50px;
+}
+.antenna_two {
+position: absolute;
+width: 50px;
+left: 50px;
+top: 122px;
+font-size: 14px;
+}
+.antenna_pic_horizontal {
+display: inline-block;
+float: left;
+position: relative;
+width: 180px;
+height: 70px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2253px;
+}
+.antenna_horizontal_arrow_top {
+height: 60px;
+position: relative;
+}
+.antenna_horizontal_arrow_left, .antenna_horizontal_arrow_right {
+position: absolute;
+top: 20px;
+width: 24px;
+height: 24px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2323px;
+}
+.antenna_horizontal_arrow_left {
+left: 23px;
+}
+.antenna_horizontal_arrow_right {
+left: 133px;
+}
+.antenna_horizontal_two {
+left:105px;
+}
+.antenna_horizontal_one, .antenna_horizontal_two {
+position: absolute;
+font-size: 14px;
+width:85px;
+text-align: center;
+}
+.antenna_status_left {
+font-size: 14px;
+width: 170px;
+float: left;
+}
+.antenna_status_right {
+font-size: 14px;
+width: 340px;
+float: left;
+margin-left: 25px;
+}
+.log_table_top {
+width: 680px;
+height: 36px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2347px;
+}
+.logtable_title_bg {
+width: 679px;
+height: 34px;
+}
+.systemlogTable div:nth-child(1) {
+line-height: 95px;
+}
+.systemlogTable div:nth-child(2) {
+line-height: 95px;
+}
+.systemlogTable div:nth-child(3) {
+line-height: 95px;
+}
+.systemlogTable div:nth-child(4) {
+display: flex;
+align-items: center;
+justify-content: center;
+border-right: 1px solid #E9E9E9;
+}
+.logtable_titles {
+float: left;
+font-size: 14px;
+text-align: center;
+padding-top: 2px;
+padding-bottom: 2px;
+height: 95px;
+}
+.select_on_spanner:hover {
+width: 97px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+padding-left: 8px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3641px;
+}
+.select_on_spanner {
+width: 97px;
+height: 32px;
+overflow: hidden;
+cursor: pointer;
+line-height: 32px;
+padding-left: 8px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3673px;
+}
+.spanner_top {
+width: 92px;
+height: 12px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2447px;
+}
+.spanner_medium {
+width: 92px;
+height: 32px;
+cursor: pointer;
+line-height: 32px;
+text-align: center;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2459px;
+}
+.spanner_bottom {
+width: 92px;
+height: 12px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2491px;
+}
+.spanner_medium:hover, .spanner_medium_selected {
+width: 92px;
+height: 32px;
+cursor: pointer;
+line-height: 32px;
+text-align: center;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2506px;
+}
+.childrenprotect_out_win_content {
+width: 850px;
+display: none;
+position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -250px;
+margin-left: -415px;
+overflow-y: auto;
+overflow-x: hidden;
+border-bottom: none;
+z-index: 20;
+}
+.table_childrenprotect_titles {
+float: left;
+font-size: 14px;
+text-align: center;
+}
+.childrenprotect_table_top {
+width: 850px;
+height: 65px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2538px;
+}
+.childrenprotect_table_bottom {
+width: 850px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2603px;
+}
+.childrenprotect_controls {
+float: left;
+font-size: 14px;
+width: 500px;
+}
+.childrenprotect-colon {
+width: 5px;
+float: left;
+padding-top: 8px;
+padding-left: 8px;
+padding-right: 8px;
+}
+.childrenprotect-to {
+float: left;
+padding-top: 7px;
+padding-left: 8px;
+padding-right: 8px;
+}
+.child_net_device_top {
+width: 500px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2615px;
+}
+.child_net_device_bottom {
+width: 500px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2627px;
+}
+.check_off_disable {
+width: 20px;
+height: 20px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2639px;
+}
+.check_on_disable {
+width: 20px;
+height: 20px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2660px;
+}
+.ic_eye_close_disable {
+width: 44px;
+height: 40px;
+cursor: pointer;
+margin-top: -4px;
+margin-left: -44px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2680px;
+}
+.urlfilter_btn_edit {
+margin-left: 1px;
+margin-top: 20%;
+}
+.urlfilter_btn_delete {
+margin-top: -22px;
+margin-right: 1px !important;
+}
+.specialapp_btn_edit {
+margin-left: 1px;
+margin-top: 32%;
+}
+.specialapp_btn_delete {
+margin-top: -22px;
+margin-right: 1px !important;
+}
+.wifinetwork_btn_edit {
+margin-top: 24px;
+margin-left: 0px;
+}
+.wifinetwork_btn_delete {
+margin-top: 24px;
+margin-left: 20px !important;
+}
+.puk_remain_times {
+display: inline-block;
+max-width: 221px;
+padding-top: 8px;
+margin-left: 7px;
+}
+.pin_times {
+display: inline-block;
+padding-top: 10px;
+margin-left: 7px;
+}
+.childrenprotect_btn_edit {
+margin-right: 20px;
+}
+.virtualserver_btn_edit {
+margin-left: 1px;
+margin-top: 32%;
+}
+.virtualserver_btn_delete {
+margin-top: -22px;
+margin-right: 1px !important;
+}
+.sipaccount_edit {
+margin-left: 40px;
+}
+.sipbasic_refresh {
+margin-left: 170px;
+margin-top: 25px;
+}
+.wifisec_edit {
+margin-left: 51px;
+}
+.wifisec_switch {
+margin-left: 32px;
+}
+.ipfilter_btn_edit {
+margin-left: 1px;
+margin-top: 32%;
+}
+.ipfilter_btn_delete {
+margin-top: -22px;
+margin-right: 1px !important;
+}
+.remotehttps_btn_edit {
+float: left;
+margin-left: 5px !important;
+}
+.remotehttps_btn_delete {
+float: right;
+margin-right: 5px !important;
+}
+.staticroute_btn_delete {
+margin: 14px 0 0 0;
+width: 22px;
+height: 22px;
+}
+.staticroute_btn_edit {
+margin: 14px 20px 0 12px;
+width: 22px;
+height: 22px;
+}
+.speeddial_edit {
+margin-left: 30px;
+}
+.mobileconnet_btn_delete {
+margin-top: 24px;
+margin-right: 20px !important;
+}
+.local_update_info {
+margin-left: 4px;
+text-align: left;
+margin-top: 8px;
+}
+.login_special_back_ground {
+width: 630px;
+height: 444px;
+overflow: hidden;
+position: absolute;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -2720px;
+}
+.restore_warning {
+width: 48px;
+height: 48px;
+margin-bottom: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3164px;
+}
+.margin_left_12 {
+margin-left: 12px !important;
+}
+.ic_update_red {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3212px;
+}
+.ic_sms_msg_new_nofull {
+width: 22px;
+height: 22px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3234px;
+}
+.ic_no_contact {
+width: 80px;
+height: 80px;
+overflow: hidden;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3257px;
+}
+.usb_android_connection {
+width: 300px;
+height: 240px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon5.png?r=1640759658');
+background-position: left -3337px;
+}
+.history_record_btn_div {
+width:100%;
+height:50px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4121px;
+}
+.history_record_footer_div {
+width:100%;
+height:12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4171px;
+}
+.star_true {
+float: left;
+margin-left: 4px;
+width:16px;
+height:16px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4183px;
+}
+.star_false {
+margin-left: 4px;
+float: left;
+width:16px;
+height:16px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4199px;
+}
+.chart_background {
+width:500px;
+height:220px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4215px;
+}
+.location_title {
+padding-top: 50px;
+padding-bottom: 10px;
+font-size: 16px;
+}
+.location_chart_style {
+width: 680px;
+height: 380px;
+}
+.noData_div_father_style {
+position: absolute;
+width: 100%;
+top: 401px;
+}
+.noData_div_style {
+font-size: 18px;
+color: #999999;
+}
+.try_again_father_div {
+margin-top: -30px;
+padding-bottom: 20px;
+}
+.padding_top_20 {
+padding-top: 20px;
+}
+.font_size_16 {
+font-size: 16px;
+color: #000000;
+}
+.location_fail_title {
+padding-top: 16px;
+color: #656565;
+font-size: 14px;
+}
+.goHome_btn_style {
+padding-top: 16px;
+cursor: pointer;
+}
+.width_680{
+width: 680px;
+}
+.height_50 {
+height: 50px;
+}
+.location_history_word {
+height: 50px;
+line-height: 50px;
+float: left;
+font-size: 18px;
+margin-left: 20px;
+}
+.location_history_empty_word {
+height: 50px;
+line-height: 50px;
+float: right;
+margin-right: 20px;
+}
+.history_chart_style {
+width: 678px;
+border:1px solid #f3f3f3;
+}
+.history_data_style {
+height: 89px;
+padding-left: 20px;
+padding-right: 20px;
+border-bottom: 1px solid #f3f3f3;
+}
+.history_location_chart_style {
+height: 14px;
+line-height: 14px;
+padding-top: 14px;
+font-size: 14px;
+}
+.history_degree_chart_style {
+height: 16px;
+padding-top: 10px;
+line-height: 16px;
+font-size: 14px;
+}
+.location_recommoned_left {
+float: left;
+font-size: 14px;
+}
+.location_recommoned_right {
+float: right;
+font-size: 14px;
+}
+.location_time_style {
+height: 14px;
+line-height: 14px;
+font-size: 14px;
+padding-top: 10px;
+color: #656565;
+}
+.history_degree_star_style {
+float:left;
+padding-left:6px;
+}
+.padding_top_40 {
+padding-top: 40px;
+}
+.location_score_style {
+float: left;
+font-size: 14px;
+margin-left: 10px;
+}
+.padding_top_30 {
+padding-top: 30px;
+}
+.location_result_btn_style {
+padding-top: 50px;
+padding-bottom: 8px;
+}
+.onekey_right {
+width: 20px;
+height: 20px;
+margin-right: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4435px;
+}
+.onekey_warning {
+width: 20px;
+height: 20px;
+margin-right: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4455px;
+}
+.onekey_error {
+width: 20px;
+height: 20px;
+margin-right: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4475px;
+}
+.speed_limited {
+width: 20px;
+height: 20px;
+margin-right: 20px;
+cursor: pointer;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon.png?r=1640759658');
+background-position: left -4495px;
+}
+.new_orange_red {color: #ff5f21;}
+.onekey_red, .error_message, .error_message span, .failed_notice_middle, .necessary_mark, .error, .guide_error {color: #FF3320;}
+.color_disable_blue, .btn_disabled {
+color: #ACD1F9 !important;
+}
+.topmenu, .topmenu_normal, .topmenunormal {
+color: #99CBFF;
+}
+.selectmenu {color: #007DFF !important;}
+.ussd_general_result_receive, .btn_normal_long, .back_text, .btn_normal_short, .home_font_style, .home_icon_text_split, .dev-table-host,
+.selectwifimenu, .file_input_on, .short_btn:hover, .short_btn:hover, .page_help, .commend_web_page, .commend_btn_hilink_app, .cert_file_input_on,
+.macfilter_forbidden, .pb_letter, .pb_floating_letter, .wifi_link_settings, .list_item_hover:hover, .btn_small_short {color: #007DFF;}
+.color_background_blue, .onePageTitle, .sms_blue_normal, .sms_blue {
+background-color: #007DFF;
+}
+.sms_blue_selected {background-color:#0063CB;}
+.color_descroption_gray, .controls-descript, .page_description_text, .onePage_description_text, .footercontainer, .notice_message, .notice_message span,
+.upgrade_file_input, .page_scenes_info_text, #pb_no_choose, #language_info, .guide_input_descript, .dev-table-time, .dev-table-time-down, .dev-table-right-info,
+.guide-eths-info, .page_help_info, .pb_edit_title, .eths-status-content, .eths-info, .eths-note, .eths-subtitle-info, .puk_remain_times, .pin_times,
+.ussd_description, .my_account, .device_Interface_string, .usb_step_message {color: #656565;}
+.color_border_gray {border-color: #656565;}
+.color_device_gray, .sd_lable_tip, .sd_notice span {color: #656556;}
+.color_home_gray, .hilinkapp_string {color: #7D7D7D;}
+.color_homeWlan_gray {color: #B8B8B8;}
+.input_forbidden {color: #c1c1c1;}
+.sms_gray_selected {background-color:#E4E4E4;}
+.sms_gray {background-color:#EFEFEF;}
+.topmenuselect, input.guide_login_input, .onePageTitle, .topmenu_selected, .login_btn_normal_long, .guide_btn_normal_long, .ic_low_medium,
+.ic_medium_medium, .ic_strong_medium, .sms_blue_normal_selected, .sms_blue_normal, .guide_checkbox_text {color: #FFFFFF;}
+html, body, .color_background_white, .headcontainer, .table_line, .cbs_contents, .file_tree_div div.noSubFolder_last, .pb_win_content,
+.file_tree_div ul, .share_table_middle, .select_bottom, .select_medium, .select_medium:hover, .select_medium_selected, .spanner_top, .spanner_medium,
+.spanner_bottom, .spanner_medium:hover, .spanner_medium_selected, .select_top {background-color: #FFFFFF;}
+.color_Darkgray, .control-label, .controls-content, .control-label-win, .home_status_font, .progress_bar_list, .dev-table-host-offline, .control-label-key, .table_titles,
+.cbs_titles, .table_row, .table_row_icon, .ddns_add_label, .commend_welcome, .commend_enter, .pb_content_line, .macfilter-control-label-win, .antenna_status_left,
+.logtable_titles, .table_childrenprotect_titles, .advance_config, .sms_send_content_textarea, .sms_send_content_textareahover, .select_top,
+.select_medium, .select_bottom, .select_medium:hover, .select_medium_selected, .lang_top_normal, .lang_bottom_normal, .lang_middle_normal, .lang_middle_normal:hover,
+.lang_middle_selected, .sms_gray_normal, .sms_gray_normal_selected, .ddns_add_title, .pb_nav_label, .pb_win_title, .pb_group_label, .pb_group_label:hover,
+.pb_sms_send_content_textarea, .spanner_top, .spanner_medium, .spanner_bottom, .spanner_medium:hover, .spanner_medium_selected, .share_table_middle {color: #000000;}
+.wps_connect_way_title, .three_way_instruction, .station_wps_description {color: #000000 !important;}
+.submit_black_overlay {background-color: #000000;}
+.secondmenu:hover, .thirdleftmenu:hover {background-color: #F3F3F3;}
+.ic_form_card {
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/ic_form_card1.png?r=1640759658');
+}
+.ic_form_card_disable {
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/ic_form_card_disable.png?r=1640759658');
+}
+.ic_form_broadband {
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/ic_form_broadband1.png?r=1640759658');
+}
+.ic_form_broadband_disable {
+width: 22px;
+height: 22px;
+background-repeat: no-repeat;
+background-image: url('../res/ic_form_broadband_disable.png?r=1640759658');
+}
+.staticroute_scroll_border {
+border: 1px solid #E9E9E9;
+padding-left: 5px;
+width: 333px;
+}
+.staticroute_noscroll_border {
+padding-left: 5px;
+width: 335px;
+}
+.controls_led {
+float: right;
+font-size: 14px;
+width: 340px;
+}
+.system-colon {
+width: 5px;
+float: right;
+padding-top: 8px;
+padding-left: 8px;
+padding-right: 8px;
+}
+.system-to {
+float: right;
+padding-top: 7px;
+padding-left: 8px;
+padding-right: 8px;
+}
+.mlog-mlogandcalltrace {
+margin: 50px auto 0 50px;
+width: 690px;
+min-height: 500px;
+float: left;
+}
+#wifi_2g_5g_switch_prompt {
+margin-bottom: 36px;
+color: #656565;
+}
+#login_allowed_show {
+width:508px;
+padding:20px 0;
+min-height:180px;
+display: none;
+position: relative;
+top: -135px;
+left: 33%;
+border-radius: 10px;
+z-index: 200;
+}
+.login_restor_left{margin-right: 50px;}
+.margin-left-70 {
+margin-left: 70px !important;
+}
+.margin-left-135 {
+margin-left: 135px !important;
+}
+.apn_profile_itemname {
+display:block;
+max-width:452px;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+}
+.apn_profile_itemapnname {
+max-width:600px;
+white-space:nowrap;
+overflow:hidden;
+text-overflow:ellipsis;
+}
+.scroll_left{
+position: relative;
+overflow: hidden;
+height: 100%;
+}
+.scroll_right{
+width: 10px;
+position: absolute;
+height: 100%;
+right: 0;
+top:0;
+}
+.scroll_bar{
+width: 6px;
+margin: 0 auto;
+background: rgba(0,0,0,0.2);
+cursor:pointer;
+border-radius:16px;
+position: absolute;
+top: 0;
+right: 0;
+}
+.scroll_bar:active,.scroll_bar:hover{
+background: rgba(0,0,0,0.5);
+}
+.scroll_text{
+height: auto;
+overflow: hidden;
+cursor:pointer;
+position: relative;
+top: 0;
+}
+.hotlink_container>ul{
+margin: 0px;
+padding: 0px 20px 5px 20px;
+font-size: 0px;
+text-align: center;
+}
+#home_hotlink_container>ul{
+padding: 10px 20px 5px 20px;
+}
+.hotlink_container>ul>li{
+display: inline-block;
+vertical-align: top;
+list-style: none;
+font-size: 0px;
+width: 152px;
+margin: 0px 20px;
+}
+.hotlink_container>ul>li>a{
+display: block;
+cursor: default;
+white-space: normal;
+text-overflow: ellipsis;
+-o-text-overflow: ellipsis;
+}
+.hotlink_container>ul>li>a.cursor{
+cursor: pointer;
+}
+.hotlink_container>ul>li>a.pic{
+height:48px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-position: center;
+}
+#hotlinks_1{
+background-image: url('../res/hotlinks_1.png?r=1640759658');
+}
+#hotlinks_2{
+background-image: url('../res/hotlinks_2.png?r=1640759658');
+}
+#hotlinks_3{
+background-image: url('../res/hotlinks_3.png?r=1640759658');
+}
+#hotlinks_4{
+background-image: url('../res/hotlinks_4.png?r=1640759658');
+}
+#hotlinks_5{
+background-image: url('../res/hotlinks_5.png?r=1640759658');
+}
+.hotlink_container>ul>li>a.txt{
+font-size: 16px;
+text-align: center;
+color: #007dff;
+height:32px;
+line-height: 32px;
+}
+.hotlink_container>ul>li>a.signal_txt{
+height:48px;
+line-height: 48px;
+padding-top: 5px;
+}
+.hotlink_container>ul>li:first-child{
+margin-left: 0px;
+}
+.location_outdoor_home {
+width: 430px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -0px;
+}
+.location_outdoor_step_mark {
+width: 22px;
+height: 22px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -300px;
+}
+.location_outdoor_echart_left {
+width: 24px;
+height: 36px;
+position: relative;
+top: 77px;
+left:0px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -324px;
+}
+.location_outdoor_echart_right {
+width: 24px;
+height: 36px;
+position: relative;
+top: 77px;
+left: -20px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -360px;
+}
+.location_outdoor_stepPic_left {
+width: 24px;
+height: 36px;
+position: relative;
+top: 127px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -324px;
+}
+.location_outdoor_stepPic_right {
+width: 24px;
+height: 36px;
+position: relative;
+top: 127px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -360px;
+}
+.location_outdoor_method1 {
+width: 200px;
+height: 200px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -396px;
+}
+.location_outdoor_method2 {
+width: 200px;
+height: 200px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -596px;
+}
+.location_outdoor_method3 {
+width: 200px;
+height: 200px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -796px;
+}
+.location_outdoor_method1_step1 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -996px;
+}
+.outdoor_pic_method4_step2 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -1296px;
+}
+.location_outdoor_method1_step2 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon6.png?r=1640759658');
+background-position: left -1596px;
+}
+.location_outdoor_method1_step5 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon7.png?r=1640759658');
+background-position: left -0px;
+}
+.location_outdoor_method1_step6 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon7.png?r=1640759658');
+background-position: left -300px;
+}
+.outdoor_cpe_home_pic {
+width: 430px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon7.png?r=1640759658');
+background-position: left -600px;
+}
+.outdoor_cpe_method1 {
+width: 240px;
+height: 240px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon7.png?r=1640759658');
+background-position: left -900px;
+}
+.outdoor_cpe_method2 {
+width: 240px;
+height: 240px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon7.png?r=1640759658');
+background-position: left -1140px;
+}
+.outdoor_pic_method4_step1 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon7.png?r=1640759658');
+background-position: left -1380px;
+}
+.location_outdoor_method2_step1 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon7.png?r=1640759658');
+background-position: left -1680px;
+}
+.location_outdoor_method2_step2 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon7.png?r=1640759658');
+background-position: left -1980px;
+}
+.location_outdoor_method2_step3 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon8.png?r=1640759658');
+background-position: left -0px;
+}
+.location_outdoor_method2_step4 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon8.png?r=1640759658');
+background-position: left -300px;
+}
+.location_outdoor_method2_step5 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon8.png?r=1640759658');
+background-position: left -600px;
+}
+.location_outdoor_method3_step1 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon8.png?r=1640759658');
+background-position: left -900px;
+}
+.location_outdoor_method3_step2 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon8.png?r=1640759658');
+background-position: left -1200px;
+}
+.location_outdoor_method3_step3 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon8.png?r=1640759658');
+background-position: left -1500px;
+}
+.location_outdoor_method3_step4 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon8.png?r=1640759658');
+background-position: left -1800px;
+}
+.location_outdoor_method3_step5 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon8.png?r=1640759658');
+background-position: left -2100px;
+}
+.location_outdoor_method1_step3 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -0px;
+}
+.location_outdoor_method1_step4 {
+width: 300px;
+height: 300px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -300px;
+}
+.outdoor_pic_method4_step3 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -600px;
+}
+.outdoor_pic_method4_step4 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -900px;
+}
+.outdoor_pic_method4_step5 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -1200px;
+}
+.outdoor_pic_method4_step6 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -1500px;
+}
+.outdoor_pic_method4_step7 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -1800px;
+}
+.outdoor_pic_method4_step8 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -2100px;
+}
+.outdoor_pic_method5_step1 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -2400px;
+}
+.outdoor_pic_method5_step2 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -2700px;
+}
+.outdoor_pic_method5_step3 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -3000px;
+}
+.outdoor_pic_method5_step4 {
+width: 300px;
+height: 300px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/emui-icon9.png?r=1640759658');
+background-position: left -3300px;
+}
+.home_sim_5g4g_on_00, .home_sim_5g4g_on_01, .home_sim_5g4g_on_02, .home_sim_5g4g_on_03, .home_sim_5g4g_on_04, .home_sim_5g4g_on_05,
+.home_sim_5g4g_on_10, .home_sim_5g4g_on_11, .home_sim_5g4g_on_12, .home_sim_5g4g_on_13, .home_sim_5g4g_on_14, .home_sim_5g4g_on_15,
+.home_sim_5g4g_on_20, .home_sim_5g4g_on_21, .home_sim_5g4g_on_22, .home_sim_5g4g_on_23, .home_sim_5g4g_on_24, .home_sim_5g4g_on_25,
+.home_sim_5g4g_on_30, .home_sim_5g4g_on_31, .home_sim_5g4g_on_32, .home_sim_5g4g_on_33, .home_sim_5g4g_on_34, .home_sim_5g4g_on_35,
+.home_sim_5g4g_on_40, .home_sim_5g4g_on_41, .home_sim_5g4g_on_42, .home_sim_5g4g_on_43, .home_sim_5g4g_on_44, .home_sim_5g4g_on_45,
+.home_sim_5g4g_on_50, .home_sim_5g4g_on_51, .home_sim_5g4g_on_52, .home_sim_5g4g_on_53, .home_sim_5g4g_on_54, .home_sim_5g4g_on_55,
+.home_sim_5g4g_off_00, .home_sim_5g4g_off_01, .home_sim_5g4g_off_02, .home_sim_5g4g_off_03, .home_sim_5g4g_off_04, .home_sim_5g4g_off_05,
+.home_sim_5g4g_off_10, .home_sim_5g4g_off_11, .home_sim_5g4g_off_12, .home_sim_5g4g_off_13, .home_sim_5g4g_off_14, .home_sim_5g4g_off_15,
+.home_sim_5g4g_off_20, .home_sim_5g4g_off_21, .home_sim_5g4g_off_22, .home_sim_5g4g_off_23, .home_sim_5g4g_off_24, .home_sim_5g4g_off_25,
+.home_sim_5g4g_off_30, .home_sim_5g4g_off_31, .home_sim_5g4g_off_32, .home_sim_5g4g_off_33, .home_sim_5g4g_off_34, .home_sim_5g4g_off_35,
+.home_sim_5g4g_off_40, .home_sim_5g4g_off_41, .home_sim_5g4g_off_42, .home_sim_5g4g_off_43, .home_sim_5g4g_off_44, .home_sim_5g4g_off_45,
+.home_sim_5g4g_off_50, .home_sim_5g4g_off_51, .home_sim_5g4g_off_52, .home_sim_5g4g_off_53, .home_sim_5g4g_off_54, .home_sim_5g4g_off_55
+{
+margin-top: 19px;
+width: 124px;
+height: 76px;
+cursor: pointer;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+.home_sim_5g4g_on_00 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -0px;
+}
+.home_sim_5g4g_on_10 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -76px;
+}
+.home_sim_5g4g_on_20 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -152px;
+}
+.home_sim_5g4g_on_30 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -228px;
+}
+.home_sim_5g4g_on_40 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -304px;
+}
+.home_sim_5g4g_on_50 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -380px;
+}
+.home_sim_5g4g_on_01 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -456px;
+}
+.home_sim_5g4g_on_11 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -532px;
+}
+.home_sim_5g4g_on_21 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -608px;
+}
+.home_sim_5g4g_on_31 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -684px;
+}
+.home_sim_5g4g_on_41 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -760px;
+}
+.home_sim_5g4g_on_51 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -836px;
+}
+.home_sim_5g4g_on_02 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -912px;
+}
+.home_sim_5g4g_on_12 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -988px;
+}
+.home_sim_5g4g_on_22 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1064px;
+}
+.home_sim_5g4g_on_32 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1140px;
+}
+.home_sim_5g4g_on_42 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1216px;
+}
+.home_sim_5g4g_on_52 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1292px;
+}
+.home_sim_5g4g_on_03 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1368px;
+}
+.home_sim_5g4g_on_13 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1444px;
+}
+.home_sim_5g4g_on_23 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1520px;
+}
+.home_sim_5g4g_on_33 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1596px;
+}
+.home_sim_5g4g_on_43 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1672px;
+}
+.home_sim_5g4g_on_53 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1748px;
+}
+.home_sim_5g4g_on_04 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1824px;
+}
+.home_sim_5g4g_on_14 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1900px;
+}
+.home_sim_5g4g_on_24 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -1976px;
+}
+.home_sim_5g4g_on_34 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2052px;
+}
+.home_sim_5g4g_on_44 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2128px;
+}
+.home_sim_5g4g_on_54 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2204px;
+}
+.home_sim_5g4g_on_05 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2280px;
+}
+.home_sim_5g4g_on_15 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2356px;
+}
+.home_sim_5g4g_on_25 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2432px;
+}
+.home_sim_5g4g_on_35 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2508px;
+}
+.home_sim_5g4g_on_45 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2584px;
+}
+.home_sim_5g4g_on_55 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2660px;
+}
+.home_sim_5g4g_off_00 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2736px;
+}
+.home_sim_5g4g_off_10 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2812px;
+}
+.home_sim_5g4g_off_20 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2888px;
+}
+.home_sim_5g4g_off_30 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -2964px;
+}
+.home_sim_5g4g_off_40 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3040px;
+}
+.home_sim_5g4g_off_50 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3116px;
+}
+.home_sim_5g4g_off_01 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3192px;
+}
+.home_sim_5g4g_off_11 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3268px;
+}
+.home_sim_5g4g_off_21 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3344px;
+}
+.home_sim_5g4g_off_31 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3420px;
+}
+.home_sim_5g4g_off_41 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3496px;
+}
+.home_sim_5g4g_off_51 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3572px;
+}
+.home_sim_5g4g_off_02 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3648px;
+}
+.home_sim_5g4g_off_12 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3724px;
+}
+.home_sim_5g4g_off_22 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3800px;
+}
+.home_sim_5g4g_off_32 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3876px;
+}
+.home_sim_5g4g_off_42 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -3952px;
+}
+.home_sim_5g4g_off_52 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4028px;
+}
+.home_sim_5g4g_off_03 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4104px;
+}
+.home_sim_5g4g_off_13 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4180px;
+}
+.home_sim_5g4g_off_23 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4256px;
+}
+.home_sim_5g4g_off_33 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4332px;
+}
+.home_sim_5g4g_off_43 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4408px;
+}
+.home_sim_5g4g_off_53 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4484px;
+}
+.home_sim_5g4g_off_04 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4560px;
+}
+.home_sim_5g4g_off_14 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4636px;
+}
+.home_sim_5g4g_off_24 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4712px;
+}
+.home_sim_5g4g_off_34 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4788px;
+}
+.home_sim_5g4g_off_44 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4864px;
+}
+.home_sim_5g4g_off_54 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -4940px;
+}
+.home_sim_5g4g_off_05 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -5016px;
+}
+.home_sim_5g4g_off_15 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -5092px;
+}
+.home_sim_5g4g_off_25 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -5168px;
+}
+.home_sim_5g4g_off_35 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -5244px;
+}
+.home_sim_5g4g_off_45 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -5320px;
+}
+.home_sim_5g4g_off_55 {
+background-image: url('../res/emui-icon11.png?r=1640759658');
+background-position: left -5396px;
+}
+.btn_delete_disable{
+width: 22px;
+height: 22px;
+cursor: pointer;
+margin-right: 20px;
+background-repeat: no-repeat;
+background-image: url('../res/delete_disable.png?r=1640759658');
+}
+.login_pop_top_noQRcode {
+width: 364px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/img_welcome_01.png?r=1640759658');
+}
+.login_pop_bottom_noQRcode {
+width: 364px;
+height: 12px;
+overflow: hidden;
+background-repeat: no-repeat;
+background-image: url('../res/img_welcome_02.png?r=1640759658');
+}
+.headcontainernew {
+width: 100%;
+min-width: 1350px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center;
+background-image: url('../res/head_add_background.png?r=1640759658');
+}
+.topmenucontainernew {
+border-top: 1px solid #007DFF;
+margin-top: -1px;
+}
+.onePageTitlenew {
+height:76px;
+font-size:18px;
+text-align:center;
+line-height: 76px;
+border-top: 1px solid #007DFF;
+}
